@@ -1,0 +1,59 @@
+uuid: b6639aff-aef5-4b5b-a1fd-e56eb18bf2fa
+langcode: fr
+status: false
+dependencies:
+  config:
+    - filter.format.ckeditor_embed_media
+  module:
+    - ckeditor
+format: ckeditor_embed_media
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formats
+          items:
+            - Bold
+            - Italic
+        -
+          name: Liens
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Listes
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Média
+          items:
+            - Blockquote
+            - image_entity_embed
+            - video_entity_embed
+        -
+          name: Outils
+          items:
+            - Source
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+    video_embed:
+      defaults:
+        children:
+          autoplay: false
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

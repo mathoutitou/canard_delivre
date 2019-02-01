@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/international\/donald-trump-rencontrera-kim-jong-fin-fevrier-second-sommet?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/20?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/10?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 12
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1d4aaf3e-927e-4a79-a9f7-a4b6a85a2d45"
+        }
+    ],
+    "vid": [
+        {
+            "value": 15
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T13:49:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/20?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f42a9e95-e91a-4d3a-ba4b-00bc6cbb0346"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "56805d62-acb4-4919-990d-d32a4eaef6ff"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "01dd0b91-fc79-48d1-8a51-28f8a9d8896a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Donald Trump rencontrera Kim Jong-un fin f\u00e9vrier pour un second sommet",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T13:48:27+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:52:14+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/international\/donald-trump-rencontrera-kim-jong-fin-fevrier-second-sommet",
+            "pid": 16,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Le jeu diplomatique continue. Donald Trump rencontrera <a href=\"https:\/\/www.lopinion.fr\/edition\/international\/kim-jong-tend-nouveau-piege-a-trump-140806\" target=\"_blank\">le dirigeant nord-cor\u00e9en Kim Jong-un<\/a> pour la deuxi\u00e8me fois fin f\u00e9vrier dans un lieu qui sera d\u00e9voil\u00e9 prochainement, a annonc\u00e9 la Maison Blanche vendredi 18 janvier.<\/p>\r\n\r\n<p>Le pr\u00e9sident des Etats-Unis avait auparavant re\u00e7u l\u2019\u00e9missaire nord-cor\u00e9en Kim Yong-chol afin de pr\u00e9parer ce second sommet. L\u2019homme d\u2019Etat cor\u00e9en a dirig\u00e9 les services de renseignement de Pyongyang avant d\u2019\u00eatre charg\u00e9 des n\u00e9gociations sur la d\u00e9nucl\u00e9arisation.<\/p>\r\n\r\n<p>Lors du premier, qui s\u2019est d\u00e9roul\u00e9 le 12 juin \u00e0 Singapour, Kim Jong-un s\u2019est engag\u00e9 \u00e0 d\u00e9manteler son arsenal nucl\u00e9aire, mais les n\u00e9gociations men\u00e9es depuis n\u2019ont pas permis de d\u00e9finir les modalit\u00e9s. \u00ab&nbsp;Nous continuons \u00e0 progresser. Nous continuons \u00e0 avoir des discussions. Les Etats-Unis vont continuer \u00e0 faire pression et \u00e0 imposer des sanctions \u00e0 la Cor\u00e9e du Nord&nbsp;\u00bb, a assur\u00e9 Sarah Sanders, porte-parole de la Maison Blanche.<\/p>\r\n\r\n<p><span>Sommet vietnamien ?<\/span> Le ton est plus chaleureux du c\u00f4t\u00e9 de la Maison Bleue, qui d\u00e9ploie une politique de r\u00e9chauffement du dialogue intercor\u00e9en. La Cor\u00e9e du Sud a d\u00e9clar\u00e9 s\u2019attendre \u00e0 ce que ce nouveau sommet constitue \u00ab&nbsp;un tournant permettant de poser les fondations pour une paix durable dans la p\u00e9ninsule cor\u00e9enne&nbsp;\u00bb. Elle va collaborer avec les Etats-Unis et d\u2019autres pays pour \u00ab&nbsp;obtenir des r\u00e9sultats concrets&nbsp;\u00bb vers la d\u00e9nucl\u00e9arisation, a ajout\u00e9 le porte-parole de la pr\u00e9sidence sud-cor\u00e9enne. Une interm\u00e9diation avec la Chine \u00e9tant possiblement obligatoire, <a href=\"https:\/\/www.lopinion.fr\/edition\/international\/entre-chine-coree-nord-interdependance-plus-en-plus-evidente-174022\" target=\"_blank\">tant l\u2019interd\u00e9pendance entre Pyongyang et P\u00e9kin est forte<\/a>.<\/p>\r\n\r\n<p>Ce second sommet pourrait avoir lieu au Vietnam, pays communiste qui entretient de bonnes relations avec Washington et Pyongyang, selon la presse sud-cor\u00e9enne. Pour l\u2019heure, des diplomates am\u00e9ricains et nord-cor\u00e9ens de haut rang des deux pays sont par ailleurs en discussions en Su\u00e8de, a-t-on appris de source diplomatique. D\u2019apr\u00e8s le quotidien <em>Dagens Nyheter<\/em>, les d\u00e9l\u00e9gations discutent depuis jeudi et se reverront durant tout le week-end.<\/p>\r\n\r\n<p><em>(Avec Reuters)<\/em><\/p>\r\n",
+            "format": "full",
+            "processed": "<p>Le jeu diplomatique continue. Donald Trump rencontrera <a href=\"https:\/\/www.lopinion.fr\/edition\/international\/kim-jong-tend-nouveau-piege-a-trump-140806\" target=\"_blank\">le dirigeant nord-cor\u00e9en Kim Jong-un<\/a> pour la deuxi\u00e8me fois fin f\u00e9vrier dans un lieu qui sera d\u00e9voil\u00e9 prochainement, a annonc\u00e9 la Maison Blanche vendredi 18 janvier.<\/p>\n\n<p>Le pr\u00e9sident des Etats-Unis avait auparavant re\u00e7u l\u2019\u00e9missaire nord-cor\u00e9en Kim Yong-chol afin de pr\u00e9parer ce second sommet. L\u2019homme d\u2019Etat cor\u00e9en a dirig\u00e9 les services de renseignement de Pyongyang avant d\u2019\u00eatre charg\u00e9 des n\u00e9gociations sur la d\u00e9nucl\u00e9arisation.<\/p>\n\n<p>Lors du premier, qui s\u2019est d\u00e9roul\u00e9 le 12 juin \u00e0 Singapour, Kim Jong-un s\u2019est engag\u00e9 \u00e0 d\u00e9manteler son arsenal nucl\u00e9aire, mais les n\u00e9gociations men\u00e9es depuis n\u2019ont pas permis de d\u00e9finir les modalit\u00e9s. \u00ab\u00a0Nous continuons \u00e0 progresser. Nous continuons \u00e0 avoir des discussions. Les Etats-Unis vont continuer \u00e0 faire pression et \u00e0 imposer des sanctions \u00e0 la Cor\u00e9e du Nord\u00a0\u00bb, a assur\u00e9 Sarah Sanders, porte-parole de la Maison Blanche.<\/p>\n\n<p><span>Sommet vietnamien ?<\/span> Le ton est plus chaleureux du c\u00f4t\u00e9 de la Maison Bleue, qui d\u00e9ploie une politique de r\u00e9chauffement du dialogue intercor\u00e9en. La Cor\u00e9e du Sud a d\u00e9clar\u00e9 s\u2019attendre \u00e0 ce que ce nouveau sommet constitue \u00ab\u00a0un tournant permettant de poser les fondations pour une paix durable dans la p\u00e9ninsule cor\u00e9enne\u00a0\u00bb. Elle va collaborer avec les Etats-Unis et d\u2019autres pays pour \u00ab\u00a0obtenir des r\u00e9sultats concrets\u00a0\u00bb vers la d\u00e9nucl\u00e9arisation, a ajout\u00e9 le porte-parole de la pr\u00e9sidence sud-cor\u00e9enne. Une interm\u00e9diation avec la Chine \u00e9tant possiblement obligatoire, <a href=\"https:\/\/www.lopinion.fr\/edition\/international\/entre-chine-coree-nord-interdependance-plus-en-plus-evidente-174022\" target=\"_blank\">tant l\u2019interd\u00e9pendance entre Pyongyang et P\u00e9kin est forte<\/a>.<\/p>\n\n<p>Ce second sommet pourrait avoir lieu au Vietnam, pays communiste qui entretient de bonnes relations avec Washington et Pyongyang, selon la presse sud-cor\u00e9enne. Pour l\u2019heure, des diplomates am\u00e9ricains et nord-cor\u00e9ens de haut rang des deux pays sont par ailleurs en discussions en Su\u00e8de, a-t-on appris de source diplomatique. D\u2019apr\u00e8s le quotidien <em>Dagens Nyheter<\/em>, les d\u00e9l\u00e9gations discutent depuis jeudi et se reverront durant tout le week-end.<\/p>\n\n<p><em>(Avec Reuters)<\/em><\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "Lors d\u2019une premi\u00e8re r\u00e9union \u00e0 Singapour, la Cor\u00e9e du Nord s\u2019\u00e9tait engag\u00e9e \u00e0 d\u00e9manteler son arsenal nucl\u00e9aire, mais les modalit\u00e9s n\u2019ont jamais \u00e9t\u00e9 claires. La prochaine rencontre pourrait avoir lieu au Vietnam, selon la presse sud-cor\u00e9enne"
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Retrouvailles"
+        }
+    ]
+}

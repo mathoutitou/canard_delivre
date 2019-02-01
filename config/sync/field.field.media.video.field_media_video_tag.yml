@@ -1,0 +1,28 @@
+uuid: a882db6a-ef79-442b-ad01-ed299426c814
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_video_tag
+    - media.type.video
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    video: video
+    full: '0'
+    light: '0'
+    plain_text: '0'
+id: media.video.field_media_video_tag
+field_name: field_media_video_tag
+entity_type: media
+bundle: video
+label: 'Tag d''intégration'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

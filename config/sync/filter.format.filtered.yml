@@ -1,0 +1,30 @@
+uuid: 4f78dd1c-c197-4b17-997b-544e9ca823b8
+langcode: fr
+status: false
+dependencies: {  }
+name: Filtré
+format: filtered
+weight: 0
+filters:
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<p> <br> <a href hreflang target> <em> <i> <strong> <b> <u> <span class="green orange blue">'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }

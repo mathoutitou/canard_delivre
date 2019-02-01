@@ -1,0 +1,21 @@
+uuid: aebd5b43-b7d5-4e21-a506-c086aedb0bdc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_video_type
+    - media.type.video
+  module:
+    - options
+id: media.video.field_media_video_type
+field_name: field_media_video_type
+entity_type: media
+bundle: video
+label: 'Type d''intégration'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,10 @@
+uuid: b79e53eb-2923-4587-8ba3-3a13fb10f2a0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+id: media.teaser
+label: Accroche
+targetEntityType: media
+cache: true

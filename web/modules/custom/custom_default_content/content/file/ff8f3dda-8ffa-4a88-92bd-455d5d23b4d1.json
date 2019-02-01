@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/sites\/canard-delivre.fr\/files\/images\/2019-01\/20190118_oxfam_ong_france_penalisee_web_0.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 18
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ff8f3dda-8ffa-4a88-92bd-455d5d23b4d1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "20190118_oxfam_ong_france_penalisee_web_0.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/images\/2019-01\/20190118_oxfam_ong_france_penalisee_web_0.jpg",
+            "url": "\/sites\/canard-delivre.fr\/files\/images\/2019-01\/20190118_oxfam_ong_france_penalisee_web_0.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 349494
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T15:16:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:16:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

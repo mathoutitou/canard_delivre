@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the custom_default_content module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function custom_default_content_install() {
+  // Add a lower weight so that custom_default_content_modules_installed() is called before default_content_modules_installed().
+  module_set_weight('custom_default_content', -1);
+}

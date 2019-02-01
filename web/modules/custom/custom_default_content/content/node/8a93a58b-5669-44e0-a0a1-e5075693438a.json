@@ -1,0 +1,198 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/international\/l-europe-deboussolee-face-a-l-impasse-britannique?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/20?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 16
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8a93a58b-5669-44e0-a0a1-e5075693438a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 19
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T14:21:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/20?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f42a9e95-e91a-4d3a-ba4b-00bc6cbb0346"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "56805d62-acb4-4919-990d-d32a4eaef6ff"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "L\u2019Europe d\u00e9boussol\u00e9e face \u00e0 l\u2019impasse britannique",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T14:21:23+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:53:21+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/international\/l-europe-deboussolee-face-a-l-impasse-britannique",
+            "pid": 7,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis bibendum purus, ac pulvinar libero posuere nec. Donec auctor ipsum id tempor vestibulum. Nullam ac odio a erat mollis venenatis eget at orci. Morbi in erat eu augue elementum tincidunt. In blandit sem risus, at accumsan sapien egestas non. Cras tincidunt pharetra justo sit amet congue. Praesent venenatis sapien tincidunt dolor vehicula vulputate. Ut nec tortor fermentum, commodo quam ac, tincidunt nisl. Sed lectus magna, suscipit quis suscipit in, congue vel lectus. Nunc in mi vitae tellus suscipit sollicitudin in eget nulla. Morbi sed porttitor mi, sed euismod sem.<\/p>\r\n\r\n<p>Nunc finibus aliquam est id vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras a pharetra est. Praesent finibus tellus vel erat semper, quis volutpat tellus mollis. Sed aliquam sapien vitae magna placerat, ac volutpat massa ullamcorper. Nam volutpat posuere consequat. Mauris tincidunt odio et metus euismod, quis pellentesque tellus sodales. Pellentesque efficitur, eros sit amet imperdiet auctor, elit nisl interdum sapien, id consectetur augue est porta sapien. Aenean et urna porttitor, molestie sapien non, suscipit arcu. Phasellus sit amet finibus dui, non dignissim lectus. Donec dolor odio, consectetur a dui at, semper sollicitudin arcu. Sed quis velit lorem. Donec consequat velit eu auctor fermentum. Ut id nisi nibh. Cras id mi diam.<\/p>\r\n",
+            "format": "full",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis bibendum purus, ac pulvinar libero posuere nec. Donec auctor ipsum id tempor vestibulum. Nullam ac odio a erat mollis venenatis eget at orci. Morbi in erat eu augue elementum tincidunt. In blandit sem risus, at accumsan sapien egestas non. Cras tincidunt pharetra justo sit amet congue. Praesent venenatis sapien tincidunt dolor vehicula vulputate. Ut nec tortor fermentum, commodo quam ac, tincidunt nisl. Sed lectus magna, suscipit quis suscipit in, congue vel lectus. Nunc in mi vitae tellus suscipit sollicitudin in eget nulla. Morbi sed porttitor mi, sed euismod sem.<\/p>\n\n<p>Nunc finibus aliquam est id vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras a pharetra est. Praesent finibus tellus vel erat semper, quis volutpat tellus mollis. Sed aliquam sapien vitae magna placerat, ac volutpat massa ullamcorper. Nam volutpat posuere consequat. Mauris tincidunt odio et metus euismod, quis pellentesque tellus sodales. Pellentesque efficitur, eros sit amet imperdiet auctor, elit nisl interdum sapien, id consectetur augue est porta sapien. Aenean et urna porttitor, molestie sapien non, suscipit arcu. Phasellus sit amet finibus dui, non dignissim lectus. Donec dolor odio, consectetur a dui at, semper sollicitudin arcu. Sed quis velit lorem. Donec consequat velit eu auctor fermentum. Ut id nisi nibh. Cras id mi diam.<\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "Face au risque accru d\u2019un \u00ab no deal \u00bb, les acteurs \u00e9conomiques sont invit\u00e9s \u00e0 acc\u00e9l\u00e9rer leurs pr\u00e9paratifs"
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Super mess"
+        }
+    ]
+}

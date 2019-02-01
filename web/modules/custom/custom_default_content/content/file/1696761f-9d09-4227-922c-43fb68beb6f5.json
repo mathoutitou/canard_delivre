@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/sites\/canard-delivre.fr\/files\/images\/2019-01\/shadoks.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1696761f-9d09-4227-922c-43fb68beb6f5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "shadoks.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/images\/2019-01\/shadoks.jpg",
+            "url": "\/sites\/canard-delivre.fr\/files\/images\/2019-01\/shadoks.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 284117
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T13:08:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T13:09:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

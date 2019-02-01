@@ -1,0 +1,58 @@
+uuid: 77696814-92fe-4367-b880-f95a467c3014
+langcode: fr
+status: false
+dependencies:
+  config:
+    - filter.format.filtered
+  module:
+    - ckeditor
+format: filtered
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Styles
+          items:
+            - Styles
+        -
+          name: Formats
+          items:
+            - Bold
+            - Underline
+            - Italic
+        -
+          name: Liens
+          items:
+            - DrupalLink
+            - DrupalUnlink
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: "span.green|Surligner en vert\r\nspan.orange|Surligner en orange\r\nspan.blue|Surligner en bleu"
+    wordcount:
+      enable: 1
+      show_paragraphs: 0
+      show_word_count: 0
+      show_char_count: 1
+      count_spaces: 1
+      count_html: 0
+      max_words: '-1'
+      max_chars: '-1'
+    video_embed:
+      defaults:
+        children:
+          autoplay: true
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

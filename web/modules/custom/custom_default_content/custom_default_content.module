@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * @file
+ * This file defines hook used by the module custom_default_content.
+ */
+
+use Drupal\Core\Config\StorageException;
+
+/**
+ * Implements hook_modules_installed().
+ */
+function custom_default_content_modules_installed($modules) {
+  $destination = file_default_scheme() . '://';
+  foreach ($modules as $module) {
+    $source = drupal_get_path('module', $module) . '/content-embedded';
+
+    if (file_exists($source)) {
+      // Copy "embed" directory in public directory.
+      custom_default_content_copy_embed_files_recurse($source, $destination);
+    }
+  }
+}
+
+/**
+ * Copy embed files recursively.
+ *
+ * @param string $source
+ *   The source directory.
+ * @param string $destination
+ *   The destination directory.
+ */
+function custom_default_content_copy_embed_files_recurse($source, $destination) {
+  if (!file_prepare_directory($destination, FILE_CREATE_DIRECTORY | FILE_MODIFY_PERMISSIONS)) {
+    throw new StorageException("Unable to create directory $destination.");
+  }
+
+  $directory = opendir($source);
+  while (($filename = readdir($directory)) !== FALSE) {
+    if ($filename === '.' || $filename === '..') {
+      continue;
+    }
+
+    if (is_dir($source . '/' . $filename)) {
+      custom_default_content_copy_embed_files_recurse($source . '/' . $filename, $destination . '/' . $filename);
+    }
+    else {
+      // Copy file to directory.
+      copy($source . '/' . $filename, $destination . '/' . $filename);
+    }
+  }
+  closedir($directory);
+}

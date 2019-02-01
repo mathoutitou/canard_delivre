@@ -1,0 +1,20 @@
+uuid: d1a6fdbf-1edd-4179-8c87-4d38ecdce3b3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - custom_seven
+id: connexionutilisateur
+theme: custom_seven
+region: content
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Connexion utilisateur'
+  provider: user
+  label_display: visible
+visibility: {  }

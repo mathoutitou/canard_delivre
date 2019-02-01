@@ -1,0 +1,18 @@
+uuid: 36573d6c-bdcd-4677-87b8-331ea096f190
+langcode: fr
+status: true
+dependencies: {  }
+id: reporter
+label: Journaliste
+weight: -1
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access site in maintenance mode'
+  - 'access toolbar'
+  - 'schedule publishing of nodes'
+  - 'skip comment approval'
+  - 'use text format full'
+  - 'use text format light'
+  - 'view scheduled content'
+  - 'view the administration theme'

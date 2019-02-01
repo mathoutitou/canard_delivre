@@ -1,0 +1,31 @@
+uuid: 0792c04c-ea1d-4b79-b32c-8b24011c66fd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - canard
+_core:
+  default_config_hash: itSHPYmGXnBVuW6FDLy148URrBNXTe0TRtnb-yeSDHI
+id: canard_account_menu
+theme: canard
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menu utilisateur'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 1
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

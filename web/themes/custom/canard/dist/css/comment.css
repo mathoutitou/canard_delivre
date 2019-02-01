@@ -1,0 +1,11 @@
+/**
+ * Comment styling.
+ */
+
+.comment .comment__meta-date {
+  font-style: italic;
+}
+
+.comment .field--name-comment-body p {
+  font-size: calc(0.7em + 0.3vw);
+}

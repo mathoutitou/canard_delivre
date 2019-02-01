@@ -1,0 +1,27 @@
+uuid: ec12261b-4900-4d9d-98cb-ca6155d3722e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.media.document.field_media_document_document
+    - media.type.document
+  module:
+    - file
+id: media.document.default
+targetEntityType: media
+bundle: document
+mode: default
+content:
+  field_media_document_document:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_url_plain
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

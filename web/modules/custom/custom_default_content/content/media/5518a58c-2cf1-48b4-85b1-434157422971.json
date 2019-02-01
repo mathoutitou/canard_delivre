@@ -1,0 +1,159 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/media\/14?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/sites\/canard-delivre.fr\/files\/images\/2019-01\/brexit_corbyn_johnson_maitres_du_chaos_web.jpg",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/sites\/canard-delivre.fr\/files\/images\/2019-01\/brexit_corbyn_johnson_maitres_du_chaos_web.jpg"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 14
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5518a58c-2cf1-48b4-85b1-434157422971"
+        }
+    ],
+    "vid": [
+        {
+            "value": 14
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-01-21T14:34:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "name": [
+        {
+            "value": "Kak",
+            "lang": "fr"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/sites\/canard-delivre.fr\/files\/images\/2019-01\/brexit_corbyn_johnson_maitres_du_chaos_web.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ffcc2fa9-3993-402a-83d0-678e1c208d2c"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/sites\/canard-delivre.fr\/files\/images\/2019-01\/brexit_corbyn_johnson_maitres_du_chaos_web.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ffcc2fa9-3993-402a-83d0-678e1c208d2c"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "2019-01-21T14:34:30+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T14:34:35+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ]
+}

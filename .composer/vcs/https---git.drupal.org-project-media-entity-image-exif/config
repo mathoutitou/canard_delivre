@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://git.drupal.org/project/media_entity_image_exif
+	fetch = +refs/*:refs/*
+	mirror = true

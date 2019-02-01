@@ -1,0 +1,12 @@
+uuid: 90526493-a045-4ecb-ac0a-9828407b9999
+langcode: fr
+status: true
+dependencies: {  }
+id: 2e9ZfIfLFCC0V-PbcDKUTb1Wk22XgjzJ6f-b16CFlPE
+label: 'http://dev.canard-delivre.fr/'
+chunks: 1
+links: 1
+max_filesize: 268
+context:
+  language: fr
+updated: 1547741382

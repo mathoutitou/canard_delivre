@@ -1,0 +1,84 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categories\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "56805d62-acb4-4919-990d-d32a4eaef6ff"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und",
+            "lang": "und"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categories"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "und"
+        }
+    ],
+    "name": [
+        {
+            "value": "International",
+            "lang": "und"
+        }
+    ],
+    "description": [
+        {
+            "value": "description of lorulah",
+            "format": null,
+            "processed": "<p>description of lorulah<\/p>\n",
+            "lang": "und"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categories\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-01-18T16:01:46+00:00",
+            "lang": "und",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "und"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<div id="canard-slider" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    {% for item in items %}
+      <div class="item{{ loop.first ? ' active' : '' }}">
+        {{ item }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <a class="left carousel-control" href="#canard-slider" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Précédent</span>
+  </a>
+  <a class="right carousel-control" href="#canard-slider" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Suivant</span>
+  </a>
+</div>

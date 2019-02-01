@@ -1,0 +1,15 @@
+uuid: 48a58e94-78f7-4389-acad-94d416c4df46
+langcode: fr
+status: true
+dependencies: {  }
+name: portrait
+label: Portrait
+effects:
+  ba9b89a3-84fc-4164-933c-ca2d55ee5962:
+    uuid: ba9b89a3-84fc-4164-933c-ca2d55ee5962
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 275
+      anchor: center-center

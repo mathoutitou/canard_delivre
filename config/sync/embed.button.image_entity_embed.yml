@@ -1,0 +1,24 @@
+uuid: 6fef9836-93c2-4e66-af55-322d30f7724d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media.type.image
+  content:
+    - 'file:file:04611c00-1023-4e6a-aa6f-31a81f0a7c11'
+  module:
+    - entity_embed
+    - media
+label: 'Image Entity Embed'
+id: image_entity_embed
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+  display_plugins:
+    - 'entity_reference:media_thumbnail'
+  entity_browser: media_image_browser_iframe
+  entity_browser_settings:
+    display_review: false
+icon_uuid: 04611c00-1023-4e6a-aa6f-31a81f0a7c11

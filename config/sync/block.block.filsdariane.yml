@@ -1,0 +1,20 @@
+uuid: 62b5a285-08da-4ac6-bdf5-b4580f251634
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - canard
+id: filsdariane
+theme: canard
+region: highlighted_top
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''Ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

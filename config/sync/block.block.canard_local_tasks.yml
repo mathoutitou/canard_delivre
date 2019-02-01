@@ -1,0 +1,22 @@
+uuid: b5937499-53ed-439d-a2b6-5ce65a337919
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - canard
+_core:
+  default_config_hash: NLzVQ2XmNDCEV98i3H6Iz_q92aofkLOb1LurHyhvXzs
+id: canard_local_tasks
+theme: canard
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

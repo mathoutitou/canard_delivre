@@ -1,0 +1,15 @@
+uuid: 1fcbc6b7-91f2-44f9-a058-5d6de06c836f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - video_embed_media
+id: video
+label: Video
+description: 'Gestion des médias de type vidéo.'
+source: video_embed_field
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_video_embed_field
+field_map: {  }

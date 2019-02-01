@@ -1,0 +1,12 @@
+/**
+ * Breadcrumb styling.
+ */
+
+.breadcrumb__items {
+  padding: 15px 0;
+  text-align: inherit;
+}
+
+.breadcrumb__item {
+  font-size: 12px;
+}

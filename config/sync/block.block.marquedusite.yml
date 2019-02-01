@@ -1,0 +1,23 @@
+uuid: 561cc223-2d94-4eb1-a488-99c0c48b9f57
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - canard
+id: marquedusite
+theme: canard
+region: header_top_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marque du site'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

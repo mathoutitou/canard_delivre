@@ -1,0 +1,22 @@
+uuid: 4d2a2d28-8ee4-430b-8658-2c41a7cf515b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - canard
+_core:
+  default_config_hash: rLk9D-2D7B5q4WrI_NKcZ3-Wc5WiPwc0EP1iJnZmqtU
+id: canard_content
+theme: canard
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

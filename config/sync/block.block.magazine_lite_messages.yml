@@ -1,0 +1,22 @@
+uuid: d5ff45ce-def6-4fd4-b49b-f608d6790fa6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - magazine_lite
+_core:
+  default_config_hash: 6DzArbFIPetnw26dkvR-bcMNVQbUqrfsle_owPDqK7Q
+id: magazine_lite_messages
+theme: magazine_lite
+region: system_messages
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

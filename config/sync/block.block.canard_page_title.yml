@@ -1,0 +1,27 @@
+uuid: 5dd770bf-d7a0-4ee7-9b90-85414b41b204
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - canard
+_core:
+  default_config_hash: fsknOuPbfhrlxBGFeetJFfTtbDK_QoiGcmzrcwFI_9Y
+id: canard_page_title
+theme: canard
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/node/*"
+    negate: true
+    context_mapping: {  }

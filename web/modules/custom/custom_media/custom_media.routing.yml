@@ -1,0 +1,35 @@
+custom_media.admin_overview:
+  path: '/admin/content/media'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::overview'
+    link_id: 'custom_media.admin_overview'
+    _title: 'custom_media.page.overview.title'
+  requirements:
+    _permission: 'access media overview'
+
+custom_media.admin_document:
+  path: '/admin/content/media/document'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::overview'
+    link_id: 'custom_media.admin_document'
+    _title: 'custom_media.page.document.title'
+  requirements:
+    _permission: 'access media overview'
+
+custom_media.admin_image:
+  path: '/admin/content/media/image'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::overview'
+    link_id: 'custom_media.admin_image'
+    _title: 'custom_media.page.image.title'
+  requirements:
+    _permission: 'access media overview'
+
+custom_media.admin_video:
+  path: '/admin/content/media/video'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::overview'
+    link_id: 'custom_media.admin_video'
+    _title: 'custom_media.page.video.title'
+  requirements:
+    _permission: 'access media overview'

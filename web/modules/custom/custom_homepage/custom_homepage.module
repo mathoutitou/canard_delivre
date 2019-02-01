@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * This file defines hook used by the module custom_homepage.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Drupal\Core\Url;
+use Drupal\electron_dao\Taxonomy\FamilyArchetype\FamilyArchetypeDao;
+use Drupal\electron_admin\Form\GeneralConfigForm;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function custom_homepage_theme() {
+  return [
+    'slider' => [
+      'variables' => [
+        'items' => [],
+      ],
+    ],
+    'list_3_columns' => [
+      'template' => 'list--3-columns',
+      'variables' => [
+        'label' => NULL,
+        'items' => [],
+      ],
+    ],
+  ];
+}

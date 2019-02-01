@@ -1,0 +1,27 @@
+/**
+ * View styling.
+ */
+
+.item-list ul li span {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  padding-left: inherit;
+}
+
+.view .item-list li {
+  display: block;
+}
+
+.view .item-list li + li {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #eee;
+}
+
+/* Related contents */
+.view-related-contents .item-list li + li {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}

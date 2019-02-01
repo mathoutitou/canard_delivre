@@ -1,0 +1,28 @@
+custom_media.admin_overview:
+  title: 'custom_media.links.overview.title'
+  description: 'custom_media.links.overview.description'
+  route_name: custom_media.admin_overview
+  parent: system.admin_content
+
+custom_media.admin_document:
+  title: 'custom_media.links.document.title'
+  description: 'custom_media.links.document.description'
+  route_name: custom_media.admin_document
+  parent: custom_media.admin_overview
+
+custom_media.admin_image:
+  title: 'custom_media.links.image.title'
+  description: 'custom_media.links.image.description'
+  route_name: custom_media.admin_image
+  parent: custom_media.admin_overview
+
+custom_media.admin_video:
+  title: 'custom_media.links.video.title'
+  description: 'custom_media.links.video.description'
+  route_name: custom_media.admin_video
+  parent: custom_media.admin_overview
+
+custom_media.add_page:
+  title: 'custom_media.links.add_page.title'
+  route_name: entity.media.add_page
+  parent: custom_media.admin_overview

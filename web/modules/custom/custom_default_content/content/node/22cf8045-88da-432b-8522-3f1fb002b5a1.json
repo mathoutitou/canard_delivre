@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/economie\/transition-ecologique-hausse-taxe-carbone-l-arbre-qui-cache-foret?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/18?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "22cf8045-88da-432b-8522-3f1fb002b5a1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T11:02:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cca95cc2-3271-4d67-b1df-cfb4681e0d46"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eec5e357-9fdc-4bf5-8226-7121bce5f2f6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1eeb755a-0a01-4085-a4d1-5395ab2e5956"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Transition \u00e9cologique: hausse de la taxe carbone, l\u2019arbre qui cache la for\u00eat",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T11:02:05+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:48:47+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/economie\/transition-ecologique-hausse-taxe-carbone-l-arbre-qui-cache-foret",
+            "pid": 2,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis bibendum purus, ac pulvinar libero posuere nec. Donec auctor ipsum id tempor vestibulum. Nullam ac odio a erat mollis venenatis eget at orci. <strong>Morbi in erat eu augue elementum tincidunt<\/strong>. In blandit sem risus, at accumsan sapien egestas non. Cras tincidunt pharetra justo sit amet congue. Praesent venenatis sapien tincidunt dolor vehicula vulputate. Ut nec tortor fermentum, commodo quam ac, tincidunt nisl. Sed lectus magna, suscipit quis suscipit in, congue vel lectus. Nunc in mi vitae tellus suscipit sollicitudin in eget nulla. Morbi sed porttitor mi, sed euismod sem.<\/p>\r\n\r\n<p>Nunc finibus aliquam est id vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras a pharetra est. Praesent finibus tellus vel erat semper, quis volutpat tellus mollis. <em>Sed aliquam sapien vitae magna placerat, ac volutpat massa ullamcorper. Nam volutpat posuere consequat. Mauris tincidunt odio et metus euismod, quis pellentesque tellus sodales. Pellentesque efficitur, eros sit amet imperdiet auctor, elit nisl interdum sapien, id consectetur augue est porta sapien. Aenean <\/em>et urna porttitor, molestie sapien non, suscipit arcu. Phasellus sit amet finibus dui, non dignissim lectus. Donec dolor odio, consectetur a dui at, semper sollicitudin arcu. Sed quis velit lorem. Donec consequat velit eu auctor fermentum. Ut id nisi nibh. Cras id mi diam.<\/p>\r\n\r\n<p>Aliquam et sem ac est semper venenatis. In convallis nisl et orci consequat iaculis. Donec vitae elementum enim, eu laoreet sem. Aenean arcu urna, gravida sed felis et, malesuada convallis nisi. Suspendisse eget lobortis ex. Proin volutpat et neque vel dignissim. Vestibulum tincidunt dapibus massa ut ultricies. Curabitur ipsum velit, fermentum eget mauris et, varius aliquet felis. Maecenas facilisis felis nisi, id laoreet nibh tincidunt vel. Aliquam eleifend eget nulla quis posuere. Curabitur mattis odio ut nisi hendrerit iaculis. Donec eget nulla augue. In hac habitasse platea dictumst.<\/p>\r\n\r\n<p>Mauris at mauris ut felis facilisis dignissim at eget quam. Mauris vitae augue tortor. Quisque in cursus libero. Ut eros lorem, fringilla vel volutpat in, efficitur a lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eget finibus quam. Nunc egestas efficitur enim, id vehicula justo bibendum eu. Maecenas a lorem nec metus pharetra sagittis eget vitae orci. Nullam eros lacus, ornare ac euismod ut, efficitur iaculis augue. Phasellus vulputate rhoncus sodales. Cras non nulla dui. Sed rhoncus vestibulum metus. Nullam libero orci, porta in mollis nec, feugiat sed massa.<\/p>\r\n\r\n<p>Duis auctor lacus risus, vel faucibus lacus ullamcorper id. Curabitur efficitur sollicitudin est quis facilisis. <a href=\"http:\/\/www.google.com\" target=\"_blank\">Vivamus et convallis lacus<\/a>. Nulla a malesuada mauris. Aenean cursus sapien et nunc vehicula interdum. Fusce nec lacus non velit consectetur sagittis. Vestibulum vitae ultrices lectus, vehicula volutpat lacus. Integer consectetur luctus massa, et commodo orci.<\/p>\r\n",
+            "format": "full",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis bibendum purus, ac pulvinar libero posuere nec. Donec auctor ipsum id tempor vestibulum. Nullam ac odio a erat mollis venenatis eget at orci. <strong>Morbi in erat eu augue elementum tincidunt<\/strong>. In blandit sem risus, at accumsan sapien egestas non. Cras tincidunt pharetra justo sit amet congue. Praesent venenatis sapien tincidunt dolor vehicula vulputate. Ut nec tortor fermentum, commodo quam ac, tincidunt nisl. Sed lectus magna, suscipit quis suscipit in, congue vel lectus. Nunc in mi vitae tellus suscipit sollicitudin in eget nulla. Morbi sed porttitor mi, sed euismod sem.<\/p>\n\n<p>Nunc finibus aliquam est id vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras a pharetra est. Praesent finibus tellus vel erat semper, quis volutpat tellus mollis. <em>Sed aliquam sapien vitae magna placerat, ac volutpat massa ullamcorper. Nam volutpat posuere consequat. Mauris tincidunt odio et metus euismod, quis pellentesque tellus sodales. Pellentesque efficitur, eros sit amet imperdiet auctor, elit nisl interdum sapien, id consectetur augue est porta sapien. Aenean <\/em>et urna porttitor, molestie sapien non, suscipit arcu. Phasellus sit amet finibus dui, non dignissim lectus. Donec dolor odio, consectetur a dui at, semper sollicitudin arcu. Sed quis velit lorem. Donec consequat velit eu auctor fermentum. Ut id nisi nibh. Cras id mi diam.<\/p>\n\n<p>Aliquam et sem ac est semper venenatis. In convallis nisl et orci consequat iaculis. Donec vitae elementum enim, eu laoreet sem. Aenean arcu urna, gravida sed felis et, malesuada convallis nisi. Suspendisse eget lobortis ex. Proin volutpat et neque vel dignissim. Vestibulum tincidunt dapibus massa ut ultricies. Curabitur ipsum velit, fermentum eget mauris et, varius aliquet felis. Maecenas facilisis felis nisi, id laoreet nibh tincidunt vel. Aliquam eleifend eget nulla quis posuere. Curabitur mattis odio ut nisi hendrerit iaculis. Donec eget nulla augue. In hac habitasse platea dictumst.<\/p>\n\n<p>Mauris at mauris ut felis facilisis dignissim at eget quam. Mauris vitae augue tortor. Quisque in cursus libero. Ut eros lorem, fringilla vel volutpat in, efficitur a lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eget finibus quam. Nunc egestas efficitur enim, id vehicula justo bibendum eu. Maecenas a lorem nec metus pharetra sagittis eget vitae orci. Nullam eros lacus, ornare ac euismod ut, efficitur iaculis augue. Phasellus vulputate rhoncus sodales. Cras non nulla dui. Sed rhoncus vestibulum metus. Nullam libero orci, porta in mollis nec, feugiat sed massa.<\/p>\n\n<p>Duis auctor lacus risus, vel faucibus lacus ullamcorper id. Curabitur efficitur sollicitudin est quis facilisis. <a href=\"http:\/\/www.google.com\" target=\"_blank\">Vivamus et convallis lacus<\/a>. Nulla a malesuada mauris. Aenean cursus sapien et nunc vehicula interdum. Fusce nec lacus non velit consectetur sagittis. Vestibulum vitae ultrices lectus, vehicula volutpat lacus. Integer consectetur luctus massa, et commodo orci.<\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "C\u2019est bien par une r\u00e9volte contre la taxe carbone que le mouvement des Gilets jaunes a d\u00e9but\u00e9. Mais attention \u00e0 ne pas se tromper de priorit\u00e9s : arr\u00eatons de se focaliser sur le nucl\u00e9aire et les \u00e9nergies renouvelables, de multiplier les comit\u00e9s Th\u00e9odule. Le vrai d\u00e9bat doit porter sur la r\u00e9novation thermique, sur l\u2019efficacit\u00e9 des aides aux particuliers, sur les nouvelles mobilit\u00e9s\u2026 "
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Grand d\u00e9bat: les r\u00e9ponses du canard"
+        }
+    ]
+}

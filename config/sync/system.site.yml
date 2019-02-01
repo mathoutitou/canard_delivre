@@ -1,0 +1,15 @@
+uuid: a64e12a7-67db-417a-be55-9cb310c8cd28
+name: 'Canard délivré'
+mail: info@canard-delivre.fr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core: null
+default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+mail_notification: ne-pas-repondre@canarddelivre.fr

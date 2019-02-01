@@ -1,0 +1,23 @@
+uuid: 1fceb1d3-0a93-4d82-9b5d-41d38c549934
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media.type.image
+  module:
+    - entity_embed
+    - media
+_core:
+  default_config_hash: yDF6LgE9PjFsaJNdFK5ULMMfUz9LaTu15HpoyUREzbA
+label: 'Media Entity Embed'
+id: media_entity_embed
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+  display_plugins: {  }
+  entity_browser: media_image
+  entity_browser_settings:
+    display_review: true
+icon_uuid: null

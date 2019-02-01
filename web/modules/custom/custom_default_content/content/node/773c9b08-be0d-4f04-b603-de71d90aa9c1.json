@@ -1,0 +1,198 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/economie\/face-a-netflix-teles-americaines-promettent-moins-pub?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/22?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "773c9b08-be0d-4f04-b603-de71d90aa9c1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 5
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T12:36:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/22?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d8aaf5dc-6c03-4b19-807f-c8acdbaeb3f7"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eec5e357-9fdc-4bf5-8226-7121bce5f2f6"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Face \u00e0 Netflix, les t\u00e9l\u00e9s am\u00e9ricaines promettent moins de pub",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T12:35:31+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:50:04+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/economie\/face-a-netflix-teles-americaines-promettent-moins-pub",
+            "pid": 4,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><strong>Mauris at mauris<\/strong> ut felis facilisis dignissim at eget quam. Mauris vitae augue tortor. Quisque in cursus libero. Ut eros lorem, fringilla vel volutpat in, efficitur a lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eget finibus quam. Nunc egestas efficitur enim, id vehicula justo bibendum eu. Maecenas a lorem nec metus pharetra sagittis eget vitae orci. Nullam eros lacus, ornare ac euismod ut, efficitur iaculis augue. Phasellus vulputate rhoncus sodales. Cras non nulla dui. Sed rhoncus vestibulum metus. Nullam libero orci, porta in mollis nec, feugiat sed massa.<\/p>\r\n\r\n<p>Duis auctor lacus risus, vel faucibus lacus ullamcorper id. <em>Curabitur efficitur sollicitudin est quis facilisis<\/em>. Vivamus et convallis lacus. Nulla a malesuada mauris. Aenean cursus sapien et nunc vehicula interdum. Fusce nec lacus non velit consectetur sagittis. Vestibulum vitae ultrices lectus, vehicula volutpat lacus. Integer consectetur luctus massa, et commodo orci.<\/p>\r\n",
+            "format": "full",
+            "processed": "<p><strong>Mauris at mauris<\/strong> ut felis facilisis dignissim at eget quam. Mauris vitae augue tortor. Quisque in cursus libero. Ut eros lorem, fringilla vel volutpat in, efficitur a lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eget finibus quam. Nunc egestas efficitur enim, id vehicula justo bibendum eu. Maecenas a lorem nec metus pharetra sagittis eget vitae orci. Nullam eros lacus, ornare ac euismod ut, efficitur iaculis augue. Phasellus vulputate rhoncus sodales. Cras non nulla dui. Sed rhoncus vestibulum metus. Nullam libero orci, porta in mollis nec, feugiat sed massa.<\/p>\n\n<p>Duis auctor lacus risus, vel faucibus lacus ullamcorper id. <em>Curabitur efficitur sollicitudin est quis facilisis<\/em>. Vivamus et convallis lacus. Nulla a malesuada mauris. Aenean cursus sapien et nunc vehicula interdum. Fusce nec lacus non velit consectetur sagittis. Vestibulum vitae ultrices lectus, vehicula volutpat lacus. Integer consectetur luctus massa, et commodo orci.<\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "Malgr\u00e9 la volont\u00e9 affich\u00e9e des cha\u00eenes de baisser la pression publicitaire sur leurs antennes, le nombre de spots continue jusqu\u2019ici de progresser, au risque de faire fuir les t\u00e9l\u00e9spectateurs"
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "J\u2019y crois, j\u2019y crois pas"
+        }
+    ]
+}

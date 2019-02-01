@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/economie\/croissance-en-chine-l-objectif-gouvernement-devrait-baisser-2019?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/18?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "31052f9e-dbcf-40d4-9e0e-e7fed10584d7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 8
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T13:12:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cca95cc2-3271-4d67-b1df-cfb4681e0d46"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eec5e357-9fdc-4bf5-8226-7121bce5f2f6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e9628ff3-8028-4100-9629-de76732ae958"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Croissance en Chine : l\u2019objectif du gouvernement devrait baisser pour 2019",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T12:40:22+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:50:24+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/economie\/croissance-en-chine-l-objectif-gouvernement-devrait-baisser-2019",
+            "pid": 5,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Inqui\u00e9tante perspective. La tendance de la croissance d\u2019un moteur de l\u2019\u00e9conomie mondiale faiblit. Et le gouvernement chinois anticipe des chiffres encore plus mauvais que les ann\u00e9es pass\u00e9es. Il pourrait d\u00e9finir un objectif de croissance de 6% \u00e0 6,5% pour 2019, en baisse par rapport \u00e0 celui pour 2018, \u00e9crit, ce vendredi 18 janvier, le China Daily, publication officielle en langue anglaise. Ce qui vient confirmer une information de l\u2019agence Reuters rapport\u00e9e la semaine derni\u00e8re.<\/p>\r\n\r\n<p>L\u2019empire du milieu \u00abfait face \u00e0 des d\u00e9fis plus importants que lors des ann\u00e9es pr\u00e9c\u00e9dentes pour stabiliser la croissance\u00bb, a indiqu\u00e9 au journal une source proche des d\u00e9cideurs. Si ces chiffres doivent n\u2019\u00eatre diffus\u00e9s qu\u2019en mars, lors de la session parlementaire annuelle, ils ont \u00e9t\u00e9 \u00e9voqu\u00e9s, mi-d\u00e9cembre, par des dirigeants chinois, au moment de la Conf\u00e9rence centrale sur le travail \u00e9conomique, selon Reuters.<\/p>\r\n\r\n<p><span>Tensions commerciales.<\/span> En 2018, la croissance du pays avoisinait 6,6%, la plus faible depuis 1990, estiment les analystes. Une tendance proche de 2016 (+6,7%). Ce vendredi, le Bureau national de la statistique nous apprend \u00e9galement les chiffres de 2017 ont \u00e9t\u00e9 moins bons que pr\u00e9vu : le PIB a \u00e9t\u00e9 revu \u00e0 la baisse \u00e0 6,8% contre 6,9% pr\u00e9c\u00e9demment.<\/p>\r\n\r\n<p>Les experts anticipent aussi un soutien du gouvernement \u00e0 l\u2019activit\u00e9 \u00e9conomique, afin d\u2019\u00e9viter un ralentissement trop important. Cependant, P\u00e9kin r\u00e9p\u00e8te qu\u2019il n\u2019y aura pas de soutien massif. Mais l\u2019\u00e9x\u00e9cutif s\u2019inqui\u00e8te. Mercredi 16 janvier, <a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/chine-injecte-83-milliards-dollars-dans-systeme-financier-record-174790\" target=\"_blank\">la banque centrale chinoise a inject\u00e9 un montant record de 560 milliards de yuans (83 milliards de dollars ou 73 milliards d\u2019euros) dans le syst\u00e8me financier.<\/a> Le but : pr\u00e9venir une p\u00e9nurie de liquidit\u00e9s qui pourrait accentuer les maux de la deuxi\u00e8me \u00e9conomie mondiale. Au coeur des pr\u00e9occupations chinoises, il y aussi les <a href=\"https:\/\/www.lopinion.fr\/edition\/wsj\/guerre-commerciale-etats-unis-chine-secoue-l-economie-mondiale-174307\" target=\"_blank\">tensions commerciales sino-am\u00e9ricaines<\/a>.<\/p>\r\n\r\n<p><em>(Avec Reuters)<\/em><\/p>\r\n",
+            "format": "full",
+            "processed": "<p>Inqui\u00e9tante perspective. La tendance de la croissance d\u2019un moteur de l\u2019\u00e9conomie mondiale faiblit. Et le gouvernement chinois anticipe des chiffres encore plus mauvais que les ann\u00e9es pass\u00e9es. Il pourrait d\u00e9finir un objectif de croissance de 6% \u00e0 6,5% pour 2019, en baisse par rapport \u00e0 celui pour 2018, \u00e9crit, ce vendredi 18 janvier, le China Daily, publication officielle en langue anglaise. Ce qui vient confirmer une information de l\u2019agence Reuters rapport\u00e9e la semaine derni\u00e8re.<\/p>\n\n<p>L\u2019empire du milieu \u00abfait face \u00e0 des d\u00e9fis plus importants que lors des ann\u00e9es pr\u00e9c\u00e9dentes pour stabiliser la croissance\u00bb, a indiqu\u00e9 au journal une source proche des d\u00e9cideurs. Si ces chiffres doivent n\u2019\u00eatre diffus\u00e9s qu\u2019en mars, lors de la session parlementaire annuelle, ils ont \u00e9t\u00e9 \u00e9voqu\u00e9s, mi-d\u00e9cembre, par des dirigeants chinois, au moment de la Conf\u00e9rence centrale sur le travail \u00e9conomique, selon Reuters.<\/p>\n\n<p><span>Tensions commerciales.<\/span> En 2018, la croissance du pays avoisinait 6,6%, la plus faible depuis 1990, estiment les analystes. Une tendance proche de 2016 (+6,7%). Ce vendredi, le Bureau national de la statistique nous apprend \u00e9galement les chiffres de 2017 ont \u00e9t\u00e9 moins bons que pr\u00e9vu : le PIB a \u00e9t\u00e9 revu \u00e0 la baisse \u00e0 6,8% contre 6,9% pr\u00e9c\u00e9demment.<\/p>\n\n<p>Les experts anticipent aussi un soutien du gouvernement \u00e0 l\u2019activit\u00e9 \u00e9conomique, afin d\u2019\u00e9viter un ralentissement trop important. Cependant, P\u00e9kin r\u00e9p\u00e8te qu\u2019il n\u2019y aura pas de soutien massif. Mais l\u2019\u00e9x\u00e9cutif s\u2019inqui\u00e8te. Mercredi 16 janvier, <a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/chine-injecte-83-milliards-dollars-dans-systeme-financier-record-174790\" target=\"_blank\">la banque centrale chinoise a inject\u00e9 un montant record de 560 milliards de yuans (83 milliards de dollars ou 73 milliards d\u2019euros) dans le syst\u00e8me financier.<\/a> Le but : pr\u00e9venir une p\u00e9nurie de liquidit\u00e9s qui pourrait accentuer les maux de la deuxi\u00e8me \u00e9conomie mondiale. Au coeur des pr\u00e9occupations chinoises, il y aussi les <a href=\"https:\/\/www.lopinion.fr\/edition\/wsj\/guerre-commerciale-etats-unis-chine-secoue-l-economie-mondiale-174307\" target=\"_blank\">tensions commerciales sino-am\u00e9ricaines<\/a>.<\/p>\n\n<p><em>(Avec Reuters)<\/em><\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "Selon le China Daily, publication officielle, l\u2019ex\u00e9cutif pourrait d\u00e9finir un objectif de croissance de 6% \u00e0 6,5% pour cette ann\u00e9e. En 2018, elle tournait autour de 6,6%, soit les plus mauvais chiffres depuis 1990 selon des statistiques qui devraient para\u00eetre ce mois-ci"
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Baisse de r\u00e9gime"
+        }
+    ]
+}

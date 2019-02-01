@@ -1,0 +1,16 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      dist/css/base.css: {}
+      dist/css/breadcrumb.css: {}
+      dist/css/comment.css: {}
+      dist/css/node.css: {}
+      dist/css/view.css: {}
+
+slider:
+  css:
+    theme:
+      dist/css/slider.css: {}
+  js:
+    dist/js/slider.js: {}

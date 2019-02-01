@@ -1,0 +1,27 @@
+uuid: 49a62f84-5612-431c-9173-669133beaddc
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+    - options
+id: media.field_media_video_type
+field_name: field_media_video_type
+entity_type: media
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: tag
+      label: Tag
+    -
+      value: url
+      label: URL
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/economie\/taxer-d-cote-subventionner-l-autre-fiscalite-shadock-made-in-france?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/19?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "36de60d1-4446-410f-b9b2-fc6ba28df61e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 7
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T13:11:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/19?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e7995343-37f5-4efe-b5d0-81867a9bb686"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eec5e357-9fdc-4bf5-8226-7121bce5f2f6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ce0cba81-b27f-4ac1-b6f7-d9d941afa99f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Taxer d\u2019un c\u00f4t\u00e9 et subventionner de l\u2019autre: la fiscalit\u00e9 Shadock made in France",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T13:09:44+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:50:16+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/economie\/taxer-d-cote-subventionner-l-autre-fiscalite-shadock-made-in-france",
+            "pid": 11,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u00ab Si \u00e7a bouge, taxez-le. Si \u00e7a continue \u00e0 bouger, r\u00e9gulez-le. Si \u00e7a s\u2019arr\u00eate de bouger, subventionnez-le \u00bb. Apr\u00e8s plus de trente ans, la saillie de Ronald Reagan \u00e9pinglant avec humour la vision de l\u2019\u00e9conomie par l\u2019administration reste dramatiquement d\u2019actualit\u00e9\u2026 <span>en<\/span> France ! En t\u00e9moigne <a href=\"https:\/\/www.strategie.gouv.fr\/publications\/reduire-poids-de-depense-publique\" target=\"_blank\">une \u00e9tude de France Strat\u00e9gie<\/a> publi\u00e9e jeudi sur la r\u00e9duction de la d\u00e9pense publique.<\/p>\r\n\r\n<p>Comparant <a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/qu-est-que-vous-faites-pognon-l-incroyable-note-bercy-l-etat-finances-174820\" target=\"_blank\">les d\u00e9penses fran\u00e7aises<\/a> \u00e0 la moyenne europ\u00e9enne par grandes missions (retraites et vieillesse, aides sociales, sant\u00e9, administration g\u00e9n\u00e9rale, etc.), le centre de r\u00e9flexion rattach\u00e9 \u00e0 Matignon constate que les fonds publics d\u00e9di\u00e9s au soutien aux entreprises sont nettement sup\u00e9rieurs \u00e0 la moyenne europ\u00e9enne. \u00ab On est \u00e0 4 points de PIB de d\u00e9penses [une centaine de milliards d\u2019euros] alors que la moyenne europ\u00e9enne est \u00e0 3 points \u00bb, indique Fabrice Lenglart, commissaire g\u00e9n\u00e9ral adjoint de France Strat\u00e9gie.<\/p>\r\n\r\n<p><span>Pompe aspirante-refoulante.<\/span> <a href=\"http:\/\/www.lopinion.fr\/edition\/economie\/bruno-maire-rejette-toute-forme-brutalite-aides-aux-entreprises-153174\" target=\"_blank\">Des aides <\/a><a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/bruno-maire-rejette-toute-forme-brutalite-aides-aux-entreprises-153174\" target=\"_blank\">saupoudr\u00e9es et <\/a><a href=\"http:\/\/www.lopinion.fr\/edition\/economie\/bruno-maire-rejette-toute-forme-brutalite-aides-aux-entreprises-153174\" target=\"_blank\">pour la plupart<\/a><a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/bruno-maire-rejette-toute-forme-brutalite-aides-aux-entreprises-153174\" target=\"_blank\"> inefficaces<\/a>, mais qui viennent compenser <a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/cice-sauve-mise-entreprises-en-2019-163214\" target=\"_blank\">un taux de pr\u00e9l\u00e8vements sur les entreprises lui aussi sup\u00e9rieur \u00e0 la moyenne europ\u00e9enne<\/a>. \u00ab On a plus d\u2019un point de PIB d\u2019imp\u00f4ts de production suppl\u00e9mentaires en France par rapport \u00e0 la moyenne europ\u00e9enne, mais aussi un point de plus d\u2019aides aux entreprises. C\u2019est la pompe aspirante-refoulante \u00bb, plaisante aigre-doux le num\u00e9ro un de France Strat\u00e9gie, Gilles de Margerie.<\/p>\r\n\r\n<p>Une fiscalit\u00e9 Shadock co\u00fbteuse et inefficace, dont la France pourrait faire l\u2019\u00e9conomie en baissant une partie de ces imp\u00f4ts de production qui taxent les entreprises avant m\u00eame qu\u2019elles aient r\u00e9alis\u00e9 leur premier euro de b\u00e9n\u00e9fice, tout en baissant parall\u00e8lement les 100 \u00e0 150 milliards d\u2019euros d\u2019aides aux entreprises. Cela permettrait par exemple de renforcer les d\u00e9penses allou\u00e9es \u00e0 l\u2019\u00e9ducation et la recherche, unique poste avec la dette pour lequel la France d\u00e9pense moins que ses principaux voisins europ\u00e9ens (-0,7 <span>point<\/span> de PIB).<\/p>\r\n",
+            "format": "full",
+            "processed": "<p>\u00ab Si \u00e7a bouge, taxez-le. Si \u00e7a continue \u00e0 bouger, r\u00e9gulez-le. Si \u00e7a s\u2019arr\u00eate de bouger, subventionnez-le \u00bb. Apr\u00e8s plus de trente ans, la saillie de Ronald Reagan \u00e9pinglant avec humour la vision de l\u2019\u00e9conomie par l\u2019administration reste dramatiquement d\u2019actualit\u00e9\u2026 <span>en<\/span> France ! En t\u00e9moigne <a href=\"https:\/\/www.strategie.gouv.fr\/publications\/reduire-poids-de-depense-publique\" target=\"_blank\">une \u00e9tude de France Strat\u00e9gie<\/a> publi\u00e9e jeudi sur la r\u00e9duction de la d\u00e9pense publique.<\/p>\n\n<p>Comparant <a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/qu-est-que-vous-faites-pognon-l-incroyable-note-bercy-l-etat-finances-174820\" target=\"_blank\">les d\u00e9penses fran\u00e7aises<\/a> \u00e0 la moyenne europ\u00e9enne par grandes missions (retraites et vieillesse, aides sociales, sant\u00e9, administration g\u00e9n\u00e9rale, etc.), le centre de r\u00e9flexion rattach\u00e9 \u00e0 Matignon constate que les fonds publics d\u00e9di\u00e9s au soutien aux entreprises sont nettement sup\u00e9rieurs \u00e0 la moyenne europ\u00e9enne. \u00ab On est \u00e0 4 points de PIB de d\u00e9penses [une centaine de milliards d\u2019euros] alors que la moyenne europ\u00e9enne est \u00e0 3 points \u00bb, indique Fabrice Lenglart, commissaire g\u00e9n\u00e9ral adjoint de France Strat\u00e9gie.<\/p>\n\n<p><span>Pompe aspirante-refoulante.<\/span> <a href=\"http:\/\/www.lopinion.fr\/edition\/economie\/bruno-maire-rejette-toute-forme-brutalite-aides-aux-entreprises-153174\" target=\"_blank\">Des aides <\/a><a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/bruno-maire-rejette-toute-forme-brutalite-aides-aux-entreprises-153174\" target=\"_blank\">saupoudr\u00e9es et <\/a><a href=\"http:\/\/www.lopinion.fr\/edition\/economie\/bruno-maire-rejette-toute-forme-brutalite-aides-aux-entreprises-153174\" target=\"_blank\">pour la plupart<\/a><a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/bruno-maire-rejette-toute-forme-brutalite-aides-aux-entreprises-153174\" target=\"_blank\"> inefficaces<\/a>, mais qui viennent compenser <a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/cice-sauve-mise-entreprises-en-2019-163214\" target=\"_blank\">un taux de pr\u00e9l\u00e8vements sur les entreprises lui aussi sup\u00e9rieur \u00e0 la moyenne europ\u00e9enne<\/a>. \u00ab On a plus d\u2019un point de PIB d\u2019imp\u00f4ts de production suppl\u00e9mentaires en France par rapport \u00e0 la moyenne europ\u00e9enne, mais aussi un point de plus d\u2019aides aux entreprises. C\u2019est la pompe aspirante-refoulante \u00bb, plaisante aigre-doux le num\u00e9ro un de France Strat\u00e9gie, Gilles de Margerie.<\/p>\n\n<p>Une fiscalit\u00e9 Shadock co\u00fbteuse et inefficace, dont la France pourrait faire l\u2019\u00e9conomie en baissant une partie de ces imp\u00f4ts de production qui taxent les entreprises avant m\u00eame qu\u2019elles aient r\u00e9alis\u00e9 leur premier euro de b\u00e9n\u00e9fice, tout en baissant parall\u00e8lement les 100 \u00e0 150 milliards d\u2019euros d\u2019aides aux entreprises. Cela permettrait par exemple de renforcer les d\u00e9penses allou\u00e9es \u00e0 l\u2019\u00e9ducation et la recherche, unique poste avec la dette pour lequel la France d\u00e9pense moins que ses principaux voisins europ\u00e9ens (-0,7 <span>point<\/span> de PIB).<\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "Selon France Strat\u00e9gie, la France d\u00e9pense un point de PIB de plus que les autres pays europ\u00e9ens pour soutenir ses entreprises. Une mani\u00e8re de compenser une fiscalit\u00e9 elle aussi sup\u00e9rieure \u00e0 la moyenne europ\u00e9enne"
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Ubu Roi"
+        }
+    ]
+}

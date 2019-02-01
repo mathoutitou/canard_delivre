@@ -1,0 +1,24 @@
+uuid: 3f529aec-d6d5-4ced-ad64-7b962f1853ec
+langcode: fr
+status: true
+dependencies:
+  config:
+    - media.type.video
+  content:
+    - 'file:file:7424f071-20ed-4d8b-b561-9415d235e4cd'
+  module:
+    - entity_embed
+    - media
+label: 'Video Entity Embed'
+id: video_entity_embed
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - video
+  display_plugins:
+    - 'entity_reference:media_thumbnail'
+  entity_browser: media_video_browser_iframe
+  entity_browser_settings:
+    display_review: false
+icon_uuid: 7424f071-20ed-4d8b-b561-9415d235e4cd

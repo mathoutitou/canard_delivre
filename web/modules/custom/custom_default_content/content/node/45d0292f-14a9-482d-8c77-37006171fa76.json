@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/economie\/chine-injecte-83-milliards-dollars-dans-systeme-financier-record?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/18?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "45d0292f-14a9-482d-8c77-37006171fa76"
+        }
+    ],
+    "vid": [
+        {
+            "value": 11
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T13:19:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cca95cc2-3271-4d67-b1df-cfb4681e0d46"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eec5e357-9fdc-4bf5-8226-7121bce5f2f6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e9628ff3-8028-4100-9629-de76732ae958"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "La Chine injecte 83 milliards de dollars dans son syst\u00e8me financier, un record",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T13:17:38+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:50:38+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/economie\/chine-injecte-83-milliards-dollars-dans-systeme-financier-record",
+            "pid": 6,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>L\u2019empire du milieu a sorti les grands moyens. Mercredi 16 janvier, la banque centrale chinoise a inject\u00e9 un montant record de 560 milliards de yuans (83 milliards de dollars ou 73 milliards d\u2019euros) dans le syst\u00e8me financier. Le but : pr\u00e9venir une p\u00e9nurie de liquidit\u00e9s qui pourrait accentuer les maux de la deuxi\u00e8me \u00e9conomie mondiale.<\/p>\r\n\r\n<p>En 2018, les dirigeants chinois ont fait face \u00e0 ce qui fut probablement la plus faible <a href=\"https:\/\/www.lopinion.fr\/edition\/wsj\/perspectives-economiques-2019-moins-croissance-plus-d-incertitudes-170836\" target=\"_blank\">croissance <\/a>depuis 1990. Du coup, cette ann\u00e9e, ils promettent d\u2019augmenter leur politique de soutien et de d\u00e9fendre l\u2019emploi. Mais les nombreuses mesures annonc\u00e9es l\u2019an dernier, des baisses d\u2019imp\u00f4ts aux projets g\u00e9ants d\u2019infrastructures ferroviaires, tardent \u00e0 porter leurs fruits. Et surtout, les derniers indicateurs \u00e9conomiques sont au rouge : ils pointent vers un ralentissement de l\u2019activit\u00e9 plus fort que pr\u00e9vu. En d\u00e9cembre, les nouvelles n\u2019ont pas \u00e9t\u00e9 bonnes. Avec l\u2019annonce coup sur coup d\u2019une contraction de l\u2019activit\u00e9 du secteur manufacturier, puis d\u2019une chute des exportations. Ce qui a choqu\u00e9 les observateurs.<\/p>\r\n\r\n<p><span>\u00abBesoin d\u2019aide\u00bb. <\/span>L\u2019op\u00e9ration r\u00e9alis\u00e9e, ce mercredi, par la Banque populaire de <a href=\"https:\/\/www.lopinion.fr\/edition\/wsj\/chine-apres-apple-quel-destin-nike-starbucks-174653\" target=\"_blank\">Chine<\/a> (BPC) sur le march\u00e9 mon\u00e9taire, intervient au lendemain de la promesse de nouvelles mesures de soutien par la banque centrale mais aussi par la Commission nationale de d\u00e9veloppement de r\u00e9forme (CNDR) et par le minist\u00e8re des Finances. Pour Trinh Nguyen, \u00e9conomiste qui suit les pays \u00e9mergents d\u2019Asie pour Natixis \u00e0 Hong Kong, \u00able message est clair - l\u2019\u00e9conomie a besoin d\u2019aide. Les autorit\u00e9s s\u2019accordent d\u00e9sormais sur la n\u00e9cessit\u00e9 d\u2019un soutien plus d\u00e9cisif et l\u2019importante injection de capitaux d\u2019aujourd\u2019hui refl\u00e8te cela.\u00bb<\/p>\r\n\r\n<p>L\u2019injection massive de la BPC intervient aussi au lendemain de la publication de donn\u00e9es montrant que la croissance de la masse mon\u00e9taire reste faible et que l\u2019octroi de pr\u00eats ne repart pas en d\u00e9pit des efforts des autorit\u00e9s pour faciliter l\u2019acc\u00e8s des entreprises au cr\u00e9dit. De nouvelles mesures ont \u00e9t\u00e9 promises par les autorit\u00e9s. Mais celles-ci \u00e9cartent pour l\u2019heure un plan de relance massif qui aurait pour effet d\u2019alourdir la dette.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p><em>(Avec Reuters)<\/em><\/p>\r\n",
+            "format": "full",
+            "processed": "<p>L\u2019empire du milieu a sorti les grands moyens. Mercredi 16 janvier, la banque centrale chinoise a inject\u00e9 un montant record de 560 milliards de yuans (83 milliards de dollars ou 73 milliards d\u2019euros) dans le syst\u00e8me financier. Le but : pr\u00e9venir une p\u00e9nurie de liquidit\u00e9s qui pourrait accentuer les maux de la deuxi\u00e8me \u00e9conomie mondiale.<\/p>\n\n<p>En 2018, les dirigeants chinois ont fait face \u00e0 ce qui fut probablement la plus faible <a href=\"https:\/\/www.lopinion.fr\/edition\/wsj\/perspectives-economiques-2019-moins-croissance-plus-d-incertitudes-170836\" target=\"_blank\">croissance <\/a>depuis 1990. Du coup, cette ann\u00e9e, ils promettent d\u2019augmenter leur politique de soutien et de d\u00e9fendre l\u2019emploi. Mais les nombreuses mesures annonc\u00e9es l\u2019an dernier, des baisses d\u2019imp\u00f4ts aux projets g\u00e9ants d\u2019infrastructures ferroviaires, tardent \u00e0 porter leurs fruits. Et surtout, les derniers indicateurs \u00e9conomiques sont au rouge : ils pointent vers un ralentissement de l\u2019activit\u00e9 plus fort que pr\u00e9vu. En d\u00e9cembre, les nouvelles n\u2019ont pas \u00e9t\u00e9 bonnes. Avec l\u2019annonce coup sur coup d\u2019une contraction de l\u2019activit\u00e9 du secteur manufacturier, puis d\u2019une chute des exportations. Ce qui a choqu\u00e9 les observateurs.<\/p>\n\n<p><span>\u00abBesoin d\u2019aide\u00bb. <\/span>L\u2019op\u00e9ration r\u00e9alis\u00e9e, ce mercredi, par la Banque populaire de <a href=\"https:\/\/www.lopinion.fr\/edition\/wsj\/chine-apres-apple-quel-destin-nike-starbucks-174653\" target=\"_blank\">Chine<\/a> (BPC) sur le march\u00e9 mon\u00e9taire, intervient au lendemain de la promesse de nouvelles mesures de soutien par la banque centrale mais aussi par la Commission nationale de d\u00e9veloppement de r\u00e9forme (CNDR) et par le minist\u00e8re des Finances. Pour Trinh Nguyen, \u00e9conomiste qui suit les pays \u00e9mergents d\u2019Asie pour Natixis \u00e0 Hong Kong, \u00able message est clair - l\u2019\u00e9conomie a besoin d\u2019aide. Les autorit\u00e9s s\u2019accordent d\u00e9sormais sur la n\u00e9cessit\u00e9 d\u2019un soutien plus d\u00e9cisif et l\u2019importante injection de capitaux d\u2019aujourd\u2019hui refl\u00e8te cela.\u00bb<\/p>\n\n<p>L\u2019injection massive de la BPC intervient aussi au lendemain de la publication de donn\u00e9es montrant que la croissance de la masse mon\u00e9taire reste faible et que l\u2019octroi de pr\u00eats ne repart pas en d\u00e9pit des efforts des autorit\u00e9s pour faciliter l\u2019acc\u00e8s des entreprises au cr\u00e9dit. De nouvelles mesures ont \u00e9t\u00e9 promises par les autorit\u00e9s. Mais celles-ci \u00e9cartent pour l\u2019heure un plan de relance massif qui aurait pour effet d\u2019alourdir la dette.<\/p>\n\n<p>\u00a0<\/p>\n\n<p><em>(Avec Reuters)<\/em><\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "L\u2019op\u00e9ration de la Banque populaire de Chine (BPC) sur le march\u00e9 mon\u00e9taire intervient au lendemain de la promesse de nouvelles mesures visant \u00e0 pr\u00e9venir une p\u00e9nurie de liquidit\u00e9s susceptible d\u2019accro\u00eetre encore les maux de la deuxi\u00e8me \u00e9conomie mondiale."
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Gros sous"
+        }
+    ]
+}

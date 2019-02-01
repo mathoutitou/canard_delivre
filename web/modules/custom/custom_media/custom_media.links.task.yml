@@ -1,0 +1,20 @@
+custom_media.admin_overview:
+  title: 'custom_media.links.overview.title'
+  route_name: custom_media.admin_overview
+  base_route: custom_media.admin_overview
+  weight: -10
+
+custom_media.admin_document:
+  title: 'custom_media.links.document.title'
+  route_name: custom_media.admin_document
+  base_route: custom_media.admin_overview
+
+custom_media.admin_image:
+  title: 'custom_media.links.image.title'
+  route_name: custom_media.admin_image
+  base_route: custom_media.admin_overview
+
+custom_media.admin_video:
+  title: 'custom_media.links.video.title'
+  route_name: custom_media.admin_video
+  base_route: custom_media.admin_overview

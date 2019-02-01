@@ -1,0 +1,20 @@
+uuid: 60c5e756-bf68-4b55-ba72-a335c3da0445
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - canard
+id: messages
+theme: canard
+region: system_messages
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

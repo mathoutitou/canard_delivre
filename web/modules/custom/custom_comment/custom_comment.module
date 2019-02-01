@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * This file defines hook used by the module custom_comment.
+ */
+
+use Drupal\comment\CommentInterface;
+use Drupal\node\NodeInterface;
+
+/**
+ * Implements HOOK_ENTITY_TYPE_links_alter() for comment().
+ */
+function custom_comment_comment_links_alter(array &$links, CommentInterface $entity, array &$context) {
+  // Disable reply link.
+  unset($links['comment']['#links']['comment-reply']);
+}
+
+/**
+ * Implements HOOK_ENTITY_TYPE_links_alter() for node().
+ */
+function custom_comment_node_links_alter(array &$links, NodeInterface $entity, array &$context) {
+  // Disable comment links.
+  unset($links['comment__field_comments']);
+}

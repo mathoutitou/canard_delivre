@@ -1,0 +1,20 @@
+uuid: e3c3342b-07fa-4603-a099-70861cbf0cd2
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - canard
+_core:
+  default_config_hash: L7-Eq132PFY4kQPu55joPvGhHX3Ht1U2MDae3lrsYEk
+id: canard_local_actions
+theme: canard
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

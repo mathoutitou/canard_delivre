@@ -1,0 +1,94 @@
+/**
+ * Node styling.
+ */
+
+.node__submitted-info {
+  font-style: italic !important;
+}
+.node__submitted-info .field--name-uid,
+.node__submitted-info .node__submitted-date {
+  font-style: normal;
+  color: #000;
+}
+
+.field--name-field-chapo {
+  font-size: calc(1.1em + 0.3vw);
+  font-weight: bold;
+}
+
+.field--name-field-surtitle {
+  display: inline-block;
+  background-color: #eee;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+.field--name-field-surtitle + .node__title {
+  margin-top: 10px;
+}
+
+
+/* View mode LIGHT */
+.node--view-mode-light .field--name-field-surtitle {
+  padding: 2px 5px;
+  font-size: .8em;
+}
+
+.node--view-mode-light .node__title {
+  font-size: 1.1em;
+}
+
+
+/* View mode TEASER */
+.node--view-mode-teaser {
+  padding: 0;
+  margin: 0;
+}
+.node--view-mode-teaser .node__main-content {
+  display: table;
+  width: 100%;
+}
+
+.node--view-mode-teaser .field--name-field-media-image {
+  display: table-cell;
+  width: 250px;
+}
+
+.node--view-mode-teaser .node__header {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/* View mode TEASER 2 */
+.node--view-mode-teaser2 .field--name-field-media-image {
+  margin-bottom: 15px;
+}
+
+.node--view-mode-teaser2 .field--name-field-surtitle {
+  padding: 2px 5px;
+  font-size: .8em;
+}
+
+.node--view-mode-teaser2 .node__title {
+  font-size: 1.1em;
+}
+
+
+/* View mode FULL */
+.node--view-mode-full .field + .field {
+  margin-top: 15px;
+}
+
+.node--view-mode-full .field--name-field-surtitle {
+  padding: 5px 10px;
+}
+
+.node--view-mode-full .field--name-field-media-image + .field {
+  margin-top: 30px;
+}
+
+/* View mode SLIDER */
+.node--view-mode-slider .node__title {
+  font-size: 1.3em;
+}

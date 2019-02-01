@@ -1,0 +1,66 @@
+uuid: 29c69fa5-88a6-49f1-aa71-6703ae2f65cd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.light
+  module:
+    - ckeditor
+format: light
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formats
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Superscript
+            - Subscript
+        -
+          name: Liens
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Actions
+          items:
+            - Cut
+            - Copy
+            - Paste
+            - PasteText
+            - PasteFromWord
+            - Source
+            - ShowBlocks
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: "span.green|Surligner en vert\r\nspan.orange|Surligner en orange"
+    wordcount:
+      enable: 1
+      show_paragraphs: 0
+      show_word_count: 0
+      show_char_count: 1
+      count_spaces: 1
+      count_html: 0
+      max_words: '-1'
+      max_chars: '-1'
+    video_embed:
+      defaults:
+        children:
+          autoplay: true
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

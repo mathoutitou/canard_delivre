@@ -1,0 +1,15 @@
+uuid: 8cd3dcf6-b6fe-413b-b477-d21d07ea6bfc
+langcode: fr
+status: true
+dependencies: {  }
+name: panoramic
+label: Panoramique
+effects:
+  1aa7773c-e3a1-4fd2-b4d6-00128c0568f4:
+    uuid: 1aa7773c-e3a1-4fd2-b4d6-00128c0568f4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 480
+      anchor: center-center

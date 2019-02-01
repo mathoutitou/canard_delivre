@@ -1,0 +1,140 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/comment\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/comment\/default"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/comment\/default\/entity_id": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/economie\/netflix-fait-flamber-tarifs-d-abonnement?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/default\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/0?_format=hal_json",
+                "lang": "fr"
+            }
+        ]
+    },
+    "cid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "05f5f910-43b5-43de-b04b-3ac98a8fd665"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "comment_type": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/comment\/default\/entity_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/economie\/netflix-fait-flamber-tarifs-d-abonnement?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2b8681e0-7b1d-4a56-a126-5eae741140c8"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/default\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "edb58de0-f5d6-4273-9348-23dc96aaa060"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ]
+    },
+    "subject": [
+        {
+            "value": "Capitaliste !!!",
+            "lang": "fr"
+        }
+    ],
+    "name": [
+        {
+            "value": "Jean-Luc M\u00e9lenchon",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-22T13:23:05+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-22T13:31:21+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "thread": [
+        {
+            "value": "01\/"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "field_comments"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "comment_body": [
+        {
+            "value": "Capitaliste !!!",
+            "format": "plain_text",
+            "processed": "<p>Capitaliste !!!<\/p>\n",
+            "lang": "fr"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * E. Lectron portal translations module.
+ */
+
+use Drupal\Component\Gettext\PoStreamReader;
+use Drupal\Component\Gettext\PoMemoryWriter;
+use Drupal\locale\StringInterface;
+
+/**
+ * Files translation to import.
+ */
+const TRANLATION_FILES = [
+  'custom_media',
+  'custom_homepage',
+  'media_missing',
+  '_translations_override',
+];
+
+/**
+ * Alter the list of projects to be updated by locale's interface translation.
+ *
+ * The following tokens are available for the server pattern.
+ *  "%core": Core version. Value example: "8.x".
+ *  "%project": Project name. Value examples: "drupal", "media_gallery".
+ *  "%version": Project version release. Value examples: "8.1", "8.x-1.0".
+ *  "%language": Language code. Value examples: "fr", "pt-pt".
+ *
+ * @param array $projects
+ *   Project data as returned by \Drupal\Update\UpdateManager::getProjects().
+ */
+function custom_translations_locale_translation_projects_alter(&$projects) {
+  $module_path = drupal_get_path('module', 'custom_translations');
+
+  foreach (TRANLATION_FILES as $filename) {
+    $projects[$filename] = array(
+      'name' => $filename,
+      'info' => array(
+        'name' => $filename,
+        'interface translation server pattern' => $module_path . '/src/translation/%language/' . $filename . '.po',
+        'package' => 'Custom',
+        'version' => '8.x-1.0',
+        'project' => $filename,
+      ),
+      'project_type' => 'module',
+      'project_status' => TRUE,
+    );
+  }
+}

@@ -1,0 +1,25 @@
+uuid: 640fcb76-6e2a-4ace-9058-641c846461cb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_video_embed_field
+    - media.type.video
+  module:
+    - video_embed_field
+id: media.video.field_media_video_embed_field
+field_name: field_media_video_embed_field
+entity_type: media
+bundle: video
+label: 'URL vidéo'
+description: 'Les fournisseurs autorisés sont Vimeo et Youtube.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: '0'
+field_type: video_embed_field

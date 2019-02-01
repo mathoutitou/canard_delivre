@@ -1,0 +1,36 @@
+# FR translations
+# E. Lectron Homepage module translations.
+
+# Empty string, without this the first translation doesnt work
+msgid ""
+msgstr ""
+
+msgid "custom.homepage.permissions.administere"
+msgstr "Administrer la page d'accueil"
+
+msgid "custom.homepage.route.default.title"
+msgstr "Média quotidien, libéré et gratuit"
+
+msgid "custom.homepage.route.settings.title"
+msgstr "Administration de la page d'accueil"
+
+msgid "custom.homepage.menu.settings.title"
+msgstr "Page d'accueil"
+
+msgid "custom.homepage.menu.settings.description"
+msgstr "Administration de la page d'accueil du site."
+
+msgid "custom.homepage.form.settings.slider.title"
+msgstr "Slider"
+
+msgid "custom.homepage.form.settings.slider.item.target_id.title"
+msgstr "Contenu"
+
+msgid "custom.homepage.form.settings.slider.item.remove_button.value"
+msgstr "Retirer l'item du slider"
+
+msgid "custom.homepage.form.settings.slider.add_button.value"
+msgstr "Ajouter un item"
+
+msgid "custom.homepage.log.settings.form_submitted"
+msgstr "Le formulaire d'administration de la page d'accueil a été mis à jour."

@@ -1,0 +1,20 @@
+uuid: f4b1cb5a-feff-43be-8a1f-8ce22c790097
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - canard
+id: propulsepardrupal
+theme: canard
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

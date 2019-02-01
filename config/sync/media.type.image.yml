@@ -1,0 +1,14 @@
+uuid: f46f8482-c55a-40f7-aa4e-152e3c919c1b
+langcode: fr
+status: true
+dependencies: {  }
+id: image
+label: Image
+description: 'Gestion des médias de type image.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_image
+  gather_exif: true
+field_map: {  }

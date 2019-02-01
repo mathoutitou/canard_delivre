@@ -1,0 +1,40 @@
+/**
+ * Base styling.
+ */
+
+.site-branding__logo img {
+  width: 80px;
+}
+
+.onscroll .onscroll-site-name-site-logo-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 12px;
+  background-color: #fff;
+  border-bottom: 2px solid #eee;
+}
+
+.onscroll .onscroll-site-name-site-logo-container img {
+  height: 50px;
+  width: auto;
+}
+
+.onscroll-logo {
+  margin-top: 0;
+}
+
+.header__section ul.menu {
+  padding: 0;
+}
+.header-container ul.menu li a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header__section ul.menu li a.is-active {
+  border-bottom: 2px solid #373737;
+}
+
+.region--white-background + div header.header.region--white-background,
+.region--white-background + header.header.region--white-background {
+  border-width: 1px 0 0;
+}

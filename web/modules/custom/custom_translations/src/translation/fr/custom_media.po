@@ -1,0 +1,84 @@
+# FR translations
+# E. Lectron Media module translations.
+
+# Empty string, without this the first translation doesnt work
+msgid ""
+msgstr ""
+
+msgid "custom_media.page.overview.title"
+msgstr "Médias"
+
+msgid "custom_media.page.document.title"
+msgstr "Document"
+
+msgid "custom_media.page.image.title"
+msgstr "Image"
+
+msgid "custom_media.page.video.title"
+msgstr "Vidéo"
+
+msgid "custom_media.links.overview.title"
+msgstr "Média"
+
+msgid "custom_media.links.overview.description"
+msgstr "Trouver et gérer les médias."
+
+msgid "custom_media.links.document.title"
+msgstr "Document"
+
+msgid "custom_media.links.document.description"
+msgstr "Trouver et gérer les médias de type document."
+
+msgid "custom_media.links.image.title"
+msgstr "Image"
+
+msgid "custom_media.links.image.description"
+msgstr "Trouver et gérer les médias de type image."
+
+msgid "custom_media.links.video.title"
+msgstr "Vidéo"
+
+msgid "custom_media.links.video.description"
+msgstr "Trouver et gérer les médias de type vidéo."
+
+msgid "custom_media.links.add_page.title"
+msgstr "Ajouter un nouveau média"
+
+msgid "custom_media.image_formatter.label"
+msgstr "Média image"
+
+msgid "custom.media.image_formatter.link_type.content"
+msgstr "Contenu"
+
+msgid "custom.media.image_formatter.link_type.media"
+msgstr "Média"
+
+msgid "custom.media.image_formatter.link_type.link_to_content"
+msgstr "Lien vers le contenu"
+
+msgid "custom.media.image_formatter.link_type.link_to_media_entity"
+msgstr "Lien vers le média"
+
+msgid "custom.media.entity_browser.widget.media_type.label"
+msgstr "Type de média"
+
+msgid "custom.media.entity_browser.widget.error.no_media_type(@source,!link)"
+msgstr "You don't have media type of the @source source. You should <a href='!link'>create one</a>"
+
+msgid "custom.media.entity_browser.widget.document.label"
+msgstr "Création de document"
+
+msgid "custom.media.entity_browser.widget.image.label"
+msgstr "Création d'image"
+
+msgid "custom.media.entity_browser.widget.video_embed_field.label"
+msgstr "Création de vidéo"
+
+msgid "custom.media.entity_browser.document.widget.description"
+msgstr "Widget permettant la création de médias document."
+
+msgid "custom.media.entity_browser.image.widget.description"
+msgstr "Widget permettant la création de médias image."
+
+msgid "custom.media.entity_browser.video_embed_field.widget.description"
+msgstr "Widget permettant la création de médias vidéo."

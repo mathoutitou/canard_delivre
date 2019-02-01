@@ -1,0 +1,75 @@
+uuid: d30a146b-e3d6-4036-addf-54222f657684
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.full
+  module:
+    - ckeditor
+format: full
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formats
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Superscript
+            - Subscript
+        -
+          name: Liens
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Listes
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Média
+          items:
+            - Blockquote
+            - image_entity_embed
+        -
+          name: Outils
+          items:
+            - Cut
+            - Copy
+            - PasteText
+            - PasteFromWord
+            - Source
+            - ShowBlocks
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: "span.green|Surligner en vert\r\nspan.orange|Surligner en orange\r\nspan.blue|Surligner en bleu\r\np.chapo|Chapô\r\na.optanon-show-settings|One trust (stylisé)\r\na.optanon-toggle-display|One trust (non stylisé)\r\n"
+    wordcount:
+      enable: 1
+      show_paragraphs: 0
+      show_word_count: 0
+      show_char_count: 1
+      count_spaces: 1
+      count_html: 0
+      max_words: '-1'
+      max_chars: '-1'
+    video_embed:
+      defaults:
+        children:
+          autoplay: true
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

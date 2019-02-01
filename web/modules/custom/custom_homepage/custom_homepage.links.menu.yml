@@ -1,0 +1,5 @@
+custom_homepage.settings:
+  title: 'custom.homepage.menu.settings.title'
+  description: 'custom.homepage.menu.settings.description'
+  route_name: custom_homepage.settings
+  parent: system.admin_structure

@@ -1,0 +1,26 @@
+uuid: 86a3418d-6cc0-41a9-8f25-f2bb6f9e5c17
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - magazine_lite
+_core:
+  default_config_hash: rQAinR5KuLdcZ_tyB1imjNm6Ha83yhTvKt8LXPoLw7w
+id: magazine_lite_main_menu
+theme: magazine_lite
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

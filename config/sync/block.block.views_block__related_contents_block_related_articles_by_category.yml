@@ -1,0 +1,33 @@
+uuid: 71e9cfe7-8f5f-4fb3-8102-bd5eab3cf0ec
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.related_contents
+  module:
+    - node
+    - views
+  theme:
+    - canard
+id: views_block__related_contents_block_related_articles_by_category
+theme: canard
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'views_block:related_contents-block_related_articles_by_category'
+settings:
+  id: 'views_block:related_contents-block_related_articles_by_category'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

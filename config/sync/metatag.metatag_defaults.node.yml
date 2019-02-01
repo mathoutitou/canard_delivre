@@ -1,0 +1,11 @@
+uuid: 9bc21525-b893-4569-b706-c88292d3d8ef
+langcode: fr
+status: true
+dependencies: {  }
+id: node
+label: Contenu
+tags:
+  description: '[node:field_description_seo]'
+  og_title: '[current-page:title]'
+  og_url: '[current-page:url:absolute]'
+  twitter_cards_type: summary

@@ -1,0 +1,8 @@
+name: Custom - Comments
+type: module
+description: 'Gestion des commentaires.'
+package: 'Custom'
+core: 8.x
+
+dependencies:
+  - comment

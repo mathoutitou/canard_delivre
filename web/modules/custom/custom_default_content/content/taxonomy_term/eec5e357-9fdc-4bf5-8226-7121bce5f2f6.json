@@ -1,0 +1,92 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categories\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "eec5e357-9fdc-4bf5-8226-7121bce5f2f6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und",
+            "lang": "und"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categories"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "und"
+        }
+    ],
+    "name": [
+        {
+            "value": "Economie",
+            "lang": "und"
+        }
+    ],
+    "description": [
+        {
+            "value": "description of vu",
+            "format": null,
+            "processed": "<p>description of vu<\/p>\n",
+            "lang": "und"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categories\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-01-21T10:37:37+00:00",
+            "lang": "und",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "und"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/economie",
+            "pid": 1,
+            "langcode": "und",
+            "lang": "und"
+        }
+    ]
+}

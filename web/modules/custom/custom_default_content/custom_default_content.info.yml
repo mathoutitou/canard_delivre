@@ -1,0 +1,12 @@
+name: Custom - Default content
+type: module
+description: 'Gestion du contenu par défaut.'
+package: 'Custom'
+core: 8.x
+
+dependencies:
+  - ckeditor
+  - default_content
+  - field
+  - node
+  - media

@@ -1,0 +1,17 @@
+uuid: 2775aa9c-f533-48bc-934a-9bf0d2f296d6
+langcode: fr
+status: false
+dependencies: {  }
+name: 'Tag Vidéo'
+format: video
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<iframe src height width><object type height width data><param name value><video height width controls preload autoplay loop><source src type>'
+      filter_html_help: true
+      filter_html_nofollow: false

@@ -1,0 +1,22 @@
+uuid: f7cdb42d-7d4c-4833-8869-de0c3a326025
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - magazine_lite
+_core:
+  default_config_hash: NLzVQ2XmNDCEV98i3H6Iz_q92aofkLOb1LurHyhvXzs
+id: magazine_lite_local_tasks
+theme: magazine_lite
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

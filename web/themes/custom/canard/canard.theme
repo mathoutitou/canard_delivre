@@ -1,0 +1,56 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Canard theme.
+ */
+
+use Drupal\Component\Utility\Html;
+use Drupal\Component\Utility\Unicode;
+
+/**
+ * Implements template_preprocess_page().
+ */
+function canard_preprocess_page(&$variables) {
+  $mt_display_fixed_logo = theme_get_setting('display_fixed_logo');
+
+  if ($mt_display_fixed_logo) {
+    $variables['mt_logo'] = base_path() . drupal_get_path('theme', 'canard') . '/dist/img/logo.gif';
+  }
+}
+
+/**
+ * Implements template_preprocess_comment().
+ */
+function canard_preprocess_comment(&$variables) {
+  $comment = $variables['elements']['#comment'];
+  $comment_subject = $comment->getSubject();
+  $account = $comment->getOwner();
+
+  // Do not display user picture if owner is anonymous account.
+  if ($account->id() === 0) {
+    $variables['user_picture'] = [];
+  }
+
+  // Do not display subject if is empty or prepopulated.
+  if (!empty($comment_subject)) {
+    // Check default_subject value.
+    if ($comment_subject == t('(No subject)')) {
+      $variables['title'] = NULL;
+    }
+    elseif ($comment->hasField('comment_body')) {
+      $comment_text = $comment->comment_body->processed;
+
+      if ($comment_subject == Unicode::truncate(trim(Html::decodeEntities(strip_tags($comment_text))), 29, TRUE, TRUE)) {
+        $variables['title'] = NULL;
+      }
+    }
+  }
+}
+
+/**
+ * Implements template_preprocess_slider().
+ */
+function canard_preprocess_slider(&$variables) {
+  $variables['#attached']['library'][] = 'canard/slider';
+}

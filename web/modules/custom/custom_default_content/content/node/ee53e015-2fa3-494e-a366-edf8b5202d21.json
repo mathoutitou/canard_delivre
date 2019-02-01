@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/politique\/oxfam-gentille-ong-lobby-agressif?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/21?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/18?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 21
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ee53e015-2fa3-494e-a366-edf8b5202d21"
+        }
+    ],
+    "vid": [
+        {
+            "value": 24
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T15:31:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/21?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8aebbd13-d276-4c5e-8e7f-9b681c28ec91"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b9aedef7-e1bc-42dd-a10b-9d70686711c3"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "88825c26-3878-4899-9b54-23a3b2b0b482"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Oxfam: gentille ONG, lobby agressif",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T15:27:12+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:46:41+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/politique\/oxfam-gentille-ong-lobby-agressif",
+            "pid": 9,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis bibendum purus, ac pulvinar libero posuere nec. Donec auctor ipsum id tempor vestibulum. Nullam ac odio a erat mollis venenatis eget at orci. Morbi in erat eu augue elementum tincidunt. In blandit sem risus, at accumsan sapien egestas non. Cras tincidunt pharetra justo sit amet congue. Praesent venenatis sapien tincidunt dolor vehicula vulputate. Ut nec tortor fermentum, commodo quam ac, tincidunt nisl. Sed lectus magna, suscipit quis suscipit in, congue vel lectus. Nunc in mi vitae tellus suscipit sollicitudin in eget nulla. Morbi sed porttitor mi, sed euismod sem.<\/p>\r\n\r\n<p>Nunc finibus aliquam est id vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras a pharetra est. Praesent finibus tellus vel erat semper, quis volutpat tellus mollis. Sed aliquam sapien vitae magna placerat, ac volutpat massa ullamcorper. Nam volutpat posuere consequat. Mauris tincidunt odio et metus euismod, quis pellentesque tellus sodales. Pellentesque efficitur, eros sit amet imperdiet auctor, elit nisl interdum sapien, id consectetur augue est porta sapien. Aenean et urna porttitor, molestie sapien non, suscipit arcu. Phasellus sit amet finibus dui, non dignissim lectus. Donec dolor odio, consectetur a dui at, semper sollicitudin arcu. Sed quis velit lorem. Donec consequat velit eu auctor fermentum. Ut id nisi nibh. Cras id mi diam.<\/p>\r\n\r\n<p>Aliquam et sem ac est semper venenatis. In convallis nisl et orci consequat iaculis. Donec vitae elementum enim, eu laoreet sem. Aenean arcu urna, gravida sed felis et, malesuada convallis nisi. Suspendisse eget lobortis ex. Proin volutpat et neque vel dignissim. Vestibulum tincidunt dapibus massa ut ultricies. Curabitur ipsum velit, fermentum eget mauris et, varius aliquet felis. Maecenas facilisis felis nisi, id laoreet nibh tincidunt vel. Aliquam eleifend eget nulla quis posuere. Curabitur mattis odio ut nisi hendrerit iaculis. Donec eget nulla augue. In hac habitasse platea dictumst.<\/p>\r\n",
+            "format": "full",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis bibendum purus, ac pulvinar libero posuere nec. Donec auctor ipsum id tempor vestibulum. Nullam ac odio a erat mollis venenatis eget at orci. Morbi in erat eu augue elementum tincidunt. In blandit sem risus, at accumsan sapien egestas non. Cras tincidunt pharetra justo sit amet congue. Praesent venenatis sapien tincidunt dolor vehicula vulputate. Ut nec tortor fermentum, commodo quam ac, tincidunt nisl. Sed lectus magna, suscipit quis suscipit in, congue vel lectus. Nunc in mi vitae tellus suscipit sollicitudin in eget nulla. Morbi sed porttitor mi, sed euismod sem.<\/p>\n\n<p>Nunc finibus aliquam est id vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras a pharetra est. Praesent finibus tellus vel erat semper, quis volutpat tellus mollis. Sed aliquam sapien vitae magna placerat, ac volutpat massa ullamcorper. Nam volutpat posuere consequat. Mauris tincidunt odio et metus euismod, quis pellentesque tellus sodales. Pellentesque efficitur, eros sit amet imperdiet auctor, elit nisl interdum sapien, id consectetur augue est porta sapien. Aenean et urna porttitor, molestie sapien non, suscipit arcu. Phasellus sit amet finibus dui, non dignissim lectus. Donec dolor odio, consectetur a dui at, semper sollicitudin arcu. Sed quis velit lorem. Donec consequat velit eu auctor fermentum. Ut id nisi nibh. Cras id mi diam.<\/p>\n\n<p>Aliquam et sem ac est semper venenatis. In convallis nisl et orci consequat iaculis. Donec vitae elementum enim, eu laoreet sem. Aenean arcu urna, gravida sed felis et, malesuada convallis nisi. Suspendisse eget lobortis ex. Proin volutpat et neque vel dignissim. Vestibulum tincidunt dapibus massa ut ultricies. Curabitur ipsum velit, fermentum eget mauris et, varius aliquet felis. Maecenas facilisis felis nisi, id laoreet nibh tincidunt vel. Aliquam eleifend eget nulla quis posuere. Curabitur mattis odio ut nisi hendrerit iaculis. Donec eget nulla augue. In hac habitasse platea dictumst.<\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "La filiale fran\u00e7aise de l\u2019ONG anglo-saxonne Oxfam international est de plus en plus pr\u00e9sente dans les all\u00e9es du pouvoir. Ses positions extr\u00eames visent souvent \u00e0 fragiliser l\u2019Etat fran\u00e7ais et les grandes entreprises"
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Guerre \u00e9conomique"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+custom_homepage.default:
+  path: '/homepage'
+  defaults:
+    _title: 'custom.homepage.route.default.title'
+    _controller: '\Drupal\custom_homepage\Controller\DefaultController::page'
+  requirements:
+    _permission: 'access content'
+
+custom_homepage.settings:
+  path: '/admin/structure/homepage'
+  defaults:
+    _title: 'custom.homepage.route.settings.title'
+    _form: '\Drupal\custom_homepage\Form\HomepageSettingsForm'
+  requirements:
+    _permission: 'administer site homepage'

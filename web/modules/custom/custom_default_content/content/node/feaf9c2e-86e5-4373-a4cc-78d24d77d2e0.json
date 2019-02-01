@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/politique\/alexandre-benalla-mis-en-examen-avoir-utilise-passeports-diplomatiques?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/21?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/17?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 20
+        }
+    ],
+    "uuid": [
+        {
+            "value": "feaf9c2e-86e5-4373-a4cc-78d24d77d2e0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 23
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T15:21:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/21?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8aebbd13-d276-4c5e-8e7f-9b681c28ec91"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b9aedef7-e1bc-42dd-a10b-9d70686711c3"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/17?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "443e72e7-63c9-40b0-9879-a793651c45a0"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Alexandre Benalla mis en examen pour avoir utilis\u00e9 ses passeports diplomatiques",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T15:21:25+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:54:51+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/politique\/alexandre-benalla-mis-en-examen-avoir-utilise-passeports-diplomatiques",
+            "pid": 22,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>L\u2019affaire Benalla <a href=\"https:\/\/www.lopinion.fr\/edition\/politique\/je-ne-me-tairai-plus-alexandre-benalla-se-fache-contre-l-elysee-173006\" target=\"_blank\">est une ritournelle<\/a>. L\u2019ancien homme de confiance d\u2019Emmanuel Macron Alexandre Benalla a \u00e9t\u00e9 mis en examen vendredi 18 janvier pour l\u2019utilisation de ses passeports diplomatiques apr\u00e8s son licenciement de l\u2019Elys\u00e9e, ont annonc\u00e9 une source judiciaire et son avocate, Jacqueline Laffont. Selon les m\u00eames sources, les juges d\u2019instruction n\u2019ont retenu que l\u2019 \u00ab&nbsp;usage public et sans droit d\u2019un document justificatif d\u2019une qualit\u00e9 professionnelle&nbsp;\u00bb.<\/p>\r\n\r\n<p>Les juges ont plac\u00e9 l\u2019ancien charg\u00e9 de mission de l\u2019Elys\u00e9e sous le statut de t\u00e9moin assist\u00e9 pour les autres incriminations retenues dans l\u2019information judiciaire ouverte par le parquet de Paris - abus de confiance, faux et usage de faux document administratif et obtention indue de document administratif.<\/p>\r\n\r\n<p>Alexandre Benalla a \u00e9t\u00e9 plac\u00e9 sous contr\u00f4le judiciaire avec obligation de pointer mensuellement. Un contr\u00f4le all\u00e9g\u00e9 par rapport aux demandes du parquet, qui souhaitait qu\u2019il soit interdit de sortie du territoire et priv\u00e9 de son passeport, a d\u00e9clar\u00e9 Me Jacqueline Laffont.<\/p>\r\n\r\n<p><span>Rebondissements.<\/span> Alexandre Benalla, d\u00e9j\u00e0 mis en examen \u00e0 deux reprises pour des violences sur des manifestants en marge des manifestations du 1er mai 2018, avait \u00e9t\u00e9 plac\u00e9 en garde \u00e0 vue jeudi. Ce qui est d\u00e9sormais \u00ab&nbsp;l\u2019affaire Benalla&nbsp;\u00bb a \u00e9clat\u00e9 l\u2019\u00e9t\u00e9 dernier et ne cesse depuis lors d\u2019embarrasser l\u2019ex\u00e9cutif, au fil de ses multiples rebondissements.<\/p>\r\n\r\n<p>Alexandre Benalla a utilis\u00e9 une vingtaine de fois des passeports diplomatiques apr\u00e8s son licenciement de l\u2019Elys\u00e9e en juillet, <a href=\"https:\/\/www.lopinion.fr\/video\/texto\/alexandre-benalla-aurait-utilise-passeports-diplomatiques-vingtaine-174819\" target=\"_blank\">a d\u00e9clar\u00e9 mercredi le directeur de cabinet du chef de l\u2019Etat, Patrick Strzoda<\/a>, \u00e0 la commission des lois du S\u00e9nat qui s\u2019est constitu\u00e9e en commission d\u2019enqu\u00eate. Il a aussi accus\u00e9 l\u2019ancien charg\u00e9 de mission, qui doit \u00eatre entendu lundi par la m\u00eame commission, d\u2019avoir falsifi\u00e9 un document pour obtenir un passeport. Mais les magistrats instructeurs n\u2019ont pas jug\u00e9 cette accusation susceptible de justifier \u00e0 ce stade la mise en examen d\u2019Alexandre Benalla.<\/p>\r\n\r\n<p><em>(Avec Reuters)<\/em><\/p>\r\n",
+            "format": "full",
+            "processed": "<p>L\u2019affaire Benalla <a href=\"https:\/\/www.lopinion.fr\/edition\/politique\/je-ne-me-tairai-plus-alexandre-benalla-se-fache-contre-l-elysee-173006\" target=\"_blank\">est une ritournelle<\/a>. L\u2019ancien homme de confiance d\u2019Emmanuel Macron Alexandre Benalla a \u00e9t\u00e9 mis en examen vendredi 18 janvier pour l\u2019utilisation de ses passeports diplomatiques apr\u00e8s son licenciement de l\u2019Elys\u00e9e, ont annonc\u00e9 une source judiciaire et son avocate, Jacqueline Laffont. Selon les m\u00eames sources, les juges d\u2019instruction n\u2019ont retenu que l\u2019 \u00ab\u00a0usage public et sans droit d\u2019un document justificatif d\u2019une qualit\u00e9 professionnelle\u00a0\u00bb.<\/p>\n\n<p>Les juges ont plac\u00e9 l\u2019ancien charg\u00e9 de mission de l\u2019Elys\u00e9e sous le statut de t\u00e9moin assist\u00e9 pour les autres incriminations retenues dans l\u2019information judiciaire ouverte par le parquet de Paris - abus de confiance, faux et usage de faux document administratif et obtention indue de document administratif.<\/p>\n\n<p>Alexandre Benalla a \u00e9t\u00e9 plac\u00e9 sous contr\u00f4le judiciaire avec obligation de pointer mensuellement. Un contr\u00f4le all\u00e9g\u00e9 par rapport aux demandes du parquet, qui souhaitait qu\u2019il soit interdit de sortie du territoire et priv\u00e9 de son passeport, a d\u00e9clar\u00e9 Me Jacqueline Laffont.<\/p>\n\n<p><span>Rebondissements.<\/span> Alexandre Benalla, d\u00e9j\u00e0 mis en examen \u00e0 deux reprises pour des violences sur des manifestants en marge des manifestations du 1er mai 2018, avait \u00e9t\u00e9 plac\u00e9 en garde \u00e0 vue jeudi. Ce qui est d\u00e9sormais \u00ab\u00a0l\u2019affaire Benalla\u00a0\u00bb a \u00e9clat\u00e9 l\u2019\u00e9t\u00e9 dernier et ne cesse depuis lors d\u2019embarrasser l\u2019ex\u00e9cutif, au fil de ses multiples rebondissements.<\/p>\n\n<p>Alexandre Benalla a utilis\u00e9 une vingtaine de fois des passeports diplomatiques apr\u00e8s son licenciement de l\u2019Elys\u00e9e en juillet, <a href=\"https:\/\/www.lopinion.fr\/video\/texto\/alexandre-benalla-aurait-utilise-passeports-diplomatiques-vingtaine-174819\" target=\"_blank\">a d\u00e9clar\u00e9 mercredi le directeur de cabinet du chef de l\u2019Etat, Patrick Strzoda<\/a>, \u00e0 la commission des lois du S\u00e9nat qui s\u2019est constitu\u00e9e en commission d\u2019enqu\u00eate. Il a aussi accus\u00e9 l\u2019ancien charg\u00e9 de mission, qui doit \u00eatre entendu lundi par la m\u00eame commission, d\u2019avoir falsifi\u00e9 un document pour obtenir un passeport. Mais les magistrats instructeurs n\u2019ont pas jug\u00e9 cette accusation susceptible de justifier \u00e0 ce stade la mise en examen d\u2019Alexandre Benalla.<\/p>\n\n<p><em>(Avec Reuters)<\/em><\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "C\u2019est la troisi\u00e8me mise en examen de l\u2019ex-charg\u00e9 de mission. Il pourra n\u00e9anmoins continuer \u00e0 voyager et sera entendu lundi par la commission d\u2019enqu\u00eate du S\u00e9nat"
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Judiciaire"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+uuid: 454c2bb8-539f-455f-9b02-6ba1a0d0bb97
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.mediatheque
+  module:
+    - views
+name: images
+label: Images
+display: modal
+display_configuration:
+  width: '900'
+  height: '600'
+  link_text: 'Sélectionner une image'
+  auto_open: false
+selection_display: multi_step_display
+selection_display_configuration:
+  entity_type: media
+  display: label
+  display_settings: {  }
+  select_text: 'Utiliser l''image sélectionnée'
+  selection_hidden: false
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  e04af140-886a-49fd-a2bf-72514ed8836f:
+    settings:
+      view: mediatheque
+      view_display: browser_images
+      submit_text: 'Sélectionner l''image'
+      auto_select: true
+    uuid: e04af140-886a-49fd-a2bf-72514ed8836f
+    weight: 1
+    label: 'Ajouter une image existante'
+    id: view

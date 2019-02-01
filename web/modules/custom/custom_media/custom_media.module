@@ -1,0 +1,168 @@
+<?php
+
+/**
+ * @file
+ * This file defines hook used by the module custom_media.
+ */
+
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Config\StorageException;
+
+/**
+ * The name of the field Url of media video form.
+ */
+const MEDIA_VIDEO_URL_FIELD_NAME = 'field_media_video_embed_field';
+
+/**
+ * The name of the field Tag of media video form.
+ */
+const MEDIA_VIDEO_TAG_FIELD_NAME = 'field_media_video_tag';
+
+/**
+ * The name of the field Type of media video form.
+ */
+const MEDIA_VIDEO_TYPE_FIELD_NAME = 'field_media_video_type';
+
+/**
+ * Implements hook_form_alter().
+ */
+function custom_media_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id === 'media_video_form' ||
+    $form_id === 'media_video_edit_form'
+  ) {
+    $select = 'select[name="' . MEDIA_VIDEO_TYPE_FIELD_NAME . '"]';
+
+    $form[MEDIA_VIDEO_URL_FIELD_NAME]['widget'][0]['value']['#states'] = array(
+      'visible' => array(
+        $select => array('value' => 'url'),
+      ),
+      'required' => array(
+        $select => array('value' => 'url'),
+      )
+    );
+
+    $form[MEDIA_VIDEO_TAG_FIELD_NAME]['#states'] = array(
+      'visible' => array(
+        $select => array('value' => 'tag'),
+      )
+    );
+
+    $form[MEDIA_VIDEO_TAG_FIELD_NAME]['widget'][0]['#states'] = array(
+      'required' => array(
+        $select => array('value' => 'tag'),
+      )
+    );
+
+    // Adding server-side validation.
+    $form[MEDIA_VIDEO_URL_FIELD_NAME]['#element_validate'][] = 'custom_media_media_video_form_url_validate';
+    $form[MEDIA_VIDEO_TAG_FIELD_NAME]['#element_validate'][] = 'custom_media_media_video_form_tag_validate';
+  }
+}
+
+/**
+ * Validation function for Url field of media video.
+ *
+ * @param array $element
+ *   The element to validate.
+ * @param FormStateInterface $form_state
+ *   The form state.
+ */
+function custom_media_media_video_form_url_validate($element, FormStateInterface $form_state) {
+  $title = $element['widget']['#title'];
+  if ($form_state->getValue(MEDIA_VIDEO_TYPE_FIELD_NAME) === 'url') {
+    $form_state->unsetValue(MEDIA_VIDEO_TAG_FIELD_NAME);
+    if ($form_state->getValue(MEDIA_VIDEO_URL_FIELD_NAME)[0]['value'] === '') {
+      $form_state->setErrorByName(MEDIA_VIDEO_URL_FIELD_NAME,
+        t('@name field is required.',
+          array('@name' => $title)
+        )
+      );
+    }
+  }
+}
+
+/**
+ * Validation function for Tag field of media video.
+ *
+ * @param array $element
+ *   The element to validate.
+ * @param FormStateInterface $form_state
+ *   The form state.
+ */
+function custom_media_media_video_form_tag_validate($element, FormStateInterface $form_state) {
+  $title = $element['widget']['#title'];
+  if ($form_state->getValue(MEDIA_VIDEO_TYPE_FIELD_NAME) === 'tag') {
+    $form_state->unsetValue(MEDIA_VIDEO_URL_FIELD_NAME);
+    if ($form_state->getValue(MEDIA_VIDEO_TAG_FIELD_NAME)[0]['value'] === '') {
+      $form_state->setErrorByName(MEDIA_VIDEO_TAG_FIELD_NAME,
+        t('@name field is required.',
+          array('@name' => $title)
+        )
+      );
+    }
+  }
+}
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter() for media_form().
+ */
+function custom_media_form_media_form_alter(&$form, FormStateInterface $form_state) {
+  // Can not choose to create revision.
+  $form['revision_information']['#access'] = FALSE;
+
+  // Only display Save button (Publishing the media).
+  $form['actions']['submit']['#access'] = TRUE;
+  unset($form['actions']['publish']['#dropbutton']);
+  unset($form['actions']['unpublish']['#dropbutton']);
+  $form['actions']['publish']['#access'] = FALSE;
+  $form['actions']['unpublish']['#access'] = FALSE;
+}
+
+/**
+ * Function executed by drush in post-install to copy icons and create media embed buttons.
+ *
+ * @throws \Exception
+ *   The file copy failed.
+ */
+function custom_media_drush_create_embed_buttons() {
+  // Embed buttons icons copy.
+  $source = drupal_get_path('module', 'custom_media') . '/images/embed_buttons';
+  $destination = file_default_scheme() . '://embed_buttons/';
+
+  if (!file_prepare_directory($destination, FILE_CREATE_DIRECTORY | FILE_MODIFY_PERMISSIONS)) {
+    throw new StorageException("Unable to create directory $destination.");
+  }
+
+  $scan_files = file_scan_directory($source, '/.*\.(png|jpg)$/');
+  foreach ($scan_files as $scan_file) {
+    $result = file_unmanaged_copy($scan_file->uri, $destination, FILE_EXISTS_REPLACE);
+    if (!$result) {
+      throw new StorageException("Unable to copy {$scan_file->uri} to $destination.");
+    }
+
+    $file = Drupal::entityTypeManager()->getStorage('file')->create([
+      'filename' => $scan_file->filename,
+      'status' => 1,
+      'uri' => $destination . $scan_file->filename,
+    ]);
+
+    if ($scan_file->filename === 'drupalimage.png') {
+      $embed_button_id = 'image_entity_embed';
+    }
+    elseif ($scan_file->filename === 'drupalvideo.png') {
+      $embed_button_id = 'video_entity_embed';
+    }
+
+    if (isset($embed_button_id)) {
+      $embed_button = Drupal::entityTypeManager()->getStorage('embed_button')->load($embed_button_id);
+
+      if ($embed_button instanceof EntityInterface) {
+        // Update file uuid with embed_button uuid for not alter configuration.
+        $file->uuid = $embed_button->get('icon_uuid');
+      }
+    }
+
+    $file->save();
+  }
+}

@@ -1,0 +1,16 @@
+# FR translations
+# Override "bad" translations.
+
+# Empty string, without this the first translation doesnt work
+msgid ""
+msgstr ""
+
+# Change user reset password submit form message.
+msgid "Further instructions have been sent to your email address."
+msgstr ""
+"<b>Un lien vous permettant de créer votre nouveau mot de passe vous a été envoyé. Vous le recevrez dans quelques instants sur l’adresse email saisie.</b>"
+"<br><br>"
+"Vous n’avez pas reçu l’email&nbsp;? Vérifiez que celui-ci n’est pas dans votre dossier de SPAMS ou de courriers indésirables."
+
+msgid "%name is not recognized as a username or an email address."
+msgstr "Nous ne retrouvons pas de compte associé à l'adresse e-mail %name. Merci de vérifier votre saisie"

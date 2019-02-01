@@ -1,0 +1,5 @@
+name: Custom - Homepage
+type: module
+description: 'Gestion de la page d''accueil.'
+package: 'Custom'
+core: 8.x

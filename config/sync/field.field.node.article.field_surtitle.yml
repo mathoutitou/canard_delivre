@@ -1,0 +1,19 @@
+uuid: e011a2d0-78d4-4544-afa0-332b69a1ee00
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_surtitle
+    - node.type.article
+id: node.article.field_surtitle
+field_name: field_surtitle
+entity_type: node
+bundle: article
+label: Surtitre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

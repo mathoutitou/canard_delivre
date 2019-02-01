@@ -1,0 +1,27 @@
+uuid: f709c523-14eb-4bc2-916d-ffffb3deb28b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - magazine_lite
+_core:
+  default_config_hash: uYqH4KEMtbb6wqrei4h7_H2eb4uLsQ4VZ4tIMtdPL60
+id: magazine_lite_breadcrumbs
+theme: magazine_lite
+region: highlighted_top
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''Ariane'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

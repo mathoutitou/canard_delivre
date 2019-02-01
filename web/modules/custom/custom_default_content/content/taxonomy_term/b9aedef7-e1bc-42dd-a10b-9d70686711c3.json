@@ -1,0 +1,84 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categories\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b9aedef7-e1bc-42dd-a10b-9d70686711c3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und",
+            "lang": "und"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "categories"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "und"
+        }
+    ],
+    "name": [
+        {
+            "value": "Politique",
+            "lang": "und"
+        }
+    ],
+    "description": [
+        {
+            "value": "description of kadrubih",
+            "format": null,
+            "processed": "<p>description of kadrubih<\/p>\n",
+            "lang": "und"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/categories\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-01-18T16:00:53+00:00",
+            "lang": "und",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "und"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ]
+}

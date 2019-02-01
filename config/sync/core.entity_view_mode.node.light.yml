@@ -1,0 +1,10 @@
+uuid: cc40ad07-d648-4e4f-9554-7c3b41ce887b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.light
+label: Light
+targetEntityType: node
+cache: true

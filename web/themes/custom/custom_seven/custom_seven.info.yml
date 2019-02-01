@@ -1,0 +1,10 @@
+name: "Custom Seven - Thème d'administration"
+type: theme
+package: custom
+core: 8.x
+version: '1.0'
+base theme: seven
+
+libraries-extend:
+  seven/global-styling:
+    - custom_seven/global-styling

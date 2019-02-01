@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/international\/etats-unis-l-impact-economique-shutdown-serait-plus-fort-que-prevu?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/20?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/11?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e6001fa5-581d-4f7c-9b74-3a0e7657361b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 16
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T13:52:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/20?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f42a9e95-e91a-4d3a-ba4b-00bc6cbb0346"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "56805d62-acb4-4919-990d-d32a4eaef6ff"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b10152ae-846c-44f9-92b3-4f88419bf989"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "Etats-Unis : l\u2019impact \u00e9conomique du shutdown serait plus fort que pr\u00e9vu",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T13:51:54+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-21T15:52:31+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/international\/etats-unis-l-impact-economique-shutdown-serait-plus-fort-que-prevu",
+            "pid": 17,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>L\u2019impact du <a href=\"https:\/\/www.lopinion.fr\/edition\/international\/etats-unis-face-plus-long-shutdown-leur-histoire-174332\" target=\"_blank\">shutdown<\/a> sur l\u2019\u00e9conomie am\u00e9ricaine est plus fort que pr\u00e9vu, montrent les donn\u00e9es communiqu\u00e9es mardi 15 janvier par la Maison blanche, tandis que pr\u00e8s de 800 000 employ\u00e9s f\u00e9d\u00e9raux ne sont plus pay\u00e9s depuis 25 jours. La construction d\u2019un mur le long de la fronti\u00e8re avec le Mexique, promesse embl\u00e9matique de sa campagne de 2016, est \u00e0 l\u2019origine du probl\u00e8me. Le pr\u00e9sident Donald Trump a impos\u00e9 la fermeture partielle de plusieurs administrations f\u00e9d\u00e9rales en excluant de signer une loi budg\u00e9taire qui ne pr\u00e9voirait pas l\u2019affectation de 5,7 milliards de dollars pour \u00e9riger ce mur. Pour ne rien arranger, Donald Trump et les responsables d\u00e9mocrates du Congr\u00e8s campent sur leurs positions respectives, depuis que la nouvelle Chambre des repr\u00e9sentants, contr\u00f4l\u00e9e par les d\u00e9mocrates, a pris ses fonctions le 3 janvier.<\/p>\r\n\r\n<p><span>Taux d\u2019int\u00e9r\u00eat. <\/span>Dans un premier temps, l\u2019administration Trump avait estim\u00e9 que le shutdown co\u00fbterait \u00e0 l\u2019\u00e9conomie am\u00e9ricaine 0,1 point de pourcentage de croissance toutes les deux semaines. Une estimation beaucoup moins optimiste a \u00e9t\u00e9 communiqu\u00e9e par un responsable de la Maison blanche, mardi 15 janvier : selon lui, le ch\u00f4mage technique auquel sont contraints quelque 380 000 employ\u00e9s f\u00e9d\u00e9raux ainsi que de nombreux sous-traitants amputerait chaque semaine la croissance de 0,13 point de pourcentage. Les cons\u00e9quences \u00e9conomiques du shutdown ont d\u2019ores et d\u00e9j\u00e0 pouss\u00e9 les \u00abfaucons\u00bb de la R\u00e9serve f\u00e9d\u00e9rale \u00e0 d\u00e9fendre une pause dans la remont\u00e9e des taux d\u2019int\u00e9r\u00eat.<\/p>\r\n\r\n<p>Pas moins de 46 000 employ\u00e9s des services fiscaux de l\u2019Internal Revenue Service (IRS) vont \u00eatre r\u00e9int\u00e9gr\u00e9s pour traiter les d\u00e9clarations de revenus annuels et autres remboursements d\u2019imp\u00f4ts, a annonc\u00e9 l\u2019agence fiscale. La p\u00e9riode des d\u00e9clarations de revenus d\u00e9bute le 28 janvier aux Etats-Unis et les Am\u00e9ricains ont jusqu\u2019au 15 avril pour la soumettre. Les employ\u00e9s r\u00e9int\u00e9gr\u00e9s, soit 57% des agents f\u00e9d\u00e9raux de l\u2019IRS, ne seront pas pay\u00e9s tant que les agences f\u00e9d\u00e9rales seront ferm\u00e9es.<\/p>\r\n\r\n<p><em>(Avec Reuters)<\/em><\/p>\r\n",
+            "format": "full",
+            "processed": "<p>L\u2019impact du <a href=\"https:\/\/www.lopinion.fr\/edition\/international\/etats-unis-face-plus-long-shutdown-leur-histoire-174332\" target=\"_blank\">shutdown<\/a> sur l\u2019\u00e9conomie am\u00e9ricaine est plus fort que pr\u00e9vu, montrent les donn\u00e9es communiqu\u00e9es mardi 15 janvier par la Maison blanche, tandis que pr\u00e8s de 800 000 employ\u00e9s f\u00e9d\u00e9raux ne sont plus pay\u00e9s depuis 25 jours. La construction d\u2019un mur le long de la fronti\u00e8re avec le Mexique, promesse embl\u00e9matique de sa campagne de 2016, est \u00e0 l\u2019origine du probl\u00e8me. Le pr\u00e9sident Donald Trump a impos\u00e9 la fermeture partielle de plusieurs administrations f\u00e9d\u00e9rales en excluant de signer une loi budg\u00e9taire qui ne pr\u00e9voirait pas l\u2019affectation de 5,7 milliards de dollars pour \u00e9riger ce mur. Pour ne rien arranger, Donald Trump et les responsables d\u00e9mocrates du Congr\u00e8s campent sur leurs positions respectives, depuis que la nouvelle Chambre des repr\u00e9sentants, contr\u00f4l\u00e9e par les d\u00e9mocrates, a pris ses fonctions le 3 janvier.<\/p>\n\n<p><span>Taux d\u2019int\u00e9r\u00eat. <\/span>Dans un premier temps, l\u2019administration Trump avait estim\u00e9 que le shutdown co\u00fbterait \u00e0 l\u2019\u00e9conomie am\u00e9ricaine 0,1 point de pourcentage de croissance toutes les deux semaines. Une estimation beaucoup moins optimiste a \u00e9t\u00e9 communiqu\u00e9e par un responsable de la Maison blanche, mardi 15 janvier : selon lui, le ch\u00f4mage technique auquel sont contraints quelque 380 000 employ\u00e9s f\u00e9d\u00e9raux ainsi que de nombreux sous-traitants amputerait chaque semaine la croissance de 0,13 point de pourcentage. Les cons\u00e9quences \u00e9conomiques du shutdown ont d\u2019ores et d\u00e9j\u00e0 pouss\u00e9 les \u00abfaucons\u00bb de la R\u00e9serve f\u00e9d\u00e9rale \u00e0 d\u00e9fendre une pause dans la remont\u00e9e des taux d\u2019int\u00e9r\u00eat.<\/p>\n\n<p>Pas moins de 46 000 employ\u00e9s des services fiscaux de l\u2019Internal Revenue Service (IRS) vont \u00eatre r\u00e9int\u00e9gr\u00e9s pour traiter les d\u00e9clarations de revenus annuels et autres remboursements d\u2019imp\u00f4ts, a annonc\u00e9 l\u2019agence fiscale. La p\u00e9riode des d\u00e9clarations de revenus d\u00e9bute le 28 janvier aux Etats-Unis et les Am\u00e9ricains ont jusqu\u2019au 15 avril pour la soumettre. Les employ\u00e9s r\u00e9int\u00e9gr\u00e9s, soit 57% des agents f\u00e9d\u00e9raux de l\u2019IRS, ne seront pas pay\u00e9s tant que les agences f\u00e9d\u00e9rales seront ferm\u00e9es.<\/p>\n\n<p><em>(Avec Reuters)<\/em><\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "La paralysie partielle de l\u2019administration f\u00e9d\u00e9rale a davantage d\u2019effet sur l\u2019\u00e9conomie am\u00e9ricaine que ce qui \u00e9tait attendu, selon la Maison blanche, alors que pr\u00e8s de 800 000 employ\u00e9s f\u00e9d\u00e9raux ne sont plus pay\u00e9s depuis 25 jours"
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Croissance"
+        }
+    ]
+}

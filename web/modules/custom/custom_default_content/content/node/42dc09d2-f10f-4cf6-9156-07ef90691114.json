@@ -1,0 +1,220 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev.canard-delivre.fr\/economie\/mondialisation-40-vers-systeme-fiscal-mondial-juste-tribune-mateusz-morawiecki-premier-ministre?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/user\/20?_format=hal_json",
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "href": "http:\/\/dev.canard-delivre.fr\/media\/12?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 14
+        }
+    ],
+    "uuid": [
+        {
+            "value": "42dc09d2-f10f-4cf6-9156-07ef90691114"
+        }
+    ],
+    "vid": [
+        {
+            "value": 17
+        }
+    ],
+    "langcode": [
+        {
+            "value": "fr",
+            "lang": "fr"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-01-21T14:03:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11aa24ed-4029-4aa7-9b66-8e68c4eeedec"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/user\/20?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f42a9e95-e91a-4d3a-ba4b-00bc6cbb0346"
+                    }
+                ],
+                "lang": "fr"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/economie?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eec5e357-9fdc-4bf5-8226-7121bce5f2f6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev.canard-delivre.fr\/media\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "95701e71-f838-45df-9f81-c05f34596770"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "title": [
+        {
+            "value": "\u00abMondialisation 4.0: vers un syst\u00e8me fiscal mondial juste\u00bb. La tribune de Mateusz Morawiecki, Premier ministre polonais",
+            "lang": "fr"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-01-21T13:55:02+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-01-22T16:59:49+00:00",
+            "lang": "fr",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "fr"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "fr"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "twitter_cards_type": "summary",
+                "canonical_url": "http:\/\/dev.canard-delivre.fr\/user",
+                "og_url": "http:\/\/dev.canard-delivre.fr\/user"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/economie\/mondialisation-40-vers-systeme-fiscal-mondial-juste-tribune-mateusz-morawiecki-premier-ministre",
+            "pid": 18,
+            "langcode": "fr",
+            "lang": "fr"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Les vagues successives de mondialisation ont red\u00e9fini notre monde. D\u2019abord les grandes d\u00e9couvertes g\u00e9ographiques et la r\u00e9volution industrielle, puis la reconstruction apr\u00e8s la guerre et l\u2019essor du commerce international, et finalement l\u2019av\u00e8nement d\u2019Internet et de nouvelles m\u00e9thodes de communication. Ces changements s\u2019op\u00e9raient \u00e0 un rythme de plus en plus soutenu \u2013 autrefois, les g\u00e9n\u00e9rations qui se succ\u00e9daient vivaient dans des conditions relativement similaires. Nous savons tous aujourd\u2019hui que non seulement nos petits-enfants, mais d\u00e9j\u00e0 nos enfants fonctionneront dans une r\u00e9alit\u00e9 compl\u00e8tement diff\u00e9rente de la n\u00f4tre.<\/p>\r\n\r\n<p>La quatri\u00e8me vague de mondialisation se cristallise \u2013 et c\u2019est sous ce mot d\u2019ordre, Mondialisation 4.0, que commence bient\u00f4t le Forum \u00e9conomique mondial de Davos. Il est ind\u00e9niable que nous nous trouvons, une fois de plus, \u00e0 un tournant de l\u2019histoire. Une nouvelle r\u00e9volution technologique, la part toujours croissante de l\u2019Asie dans le commerce mondial ainsi que les dangers li\u00e9s au terrorisme et une migration de masse non contr\u00f4l\u00e9e font que notre monde contemporain a besoin de plus de coop\u00e9ration internationale et de nouvelles r\u00e8gles du jeu.<\/p>\r\n\r\n<p>C\u2019est pourquoi je me r\u00e9jouis que la perspective polonaise des questions de mondialisation commence \u00e0 \u00eatre de plus en plus pr\u00e9sente dans le discours plan\u00e9taire. Dans l\u2019un des plus importants livres de 2017, <em>The Dawn Watch : Joseph Conrad in a Global World<\/em>, Maya Jasanoff, professeur \u00e0 l\u2019universit\u00e9 d\u2019Harvard, rappelle le personnage de Joseph Conrad, l\u2019un des plus perspicaces observateurs de la mondialisation de la fin du 19<sup>e<\/sup> et du d\u00e9but du XX<sup>e<\/sup> si\u00e8cle.<\/p>\r\n\r\n<p>Conrad est consid\u00e9r\u00e9 par beaucoup comme l\u2019un des plus grands \u00e9crivains britanniques de l\u2019histoire. Or, il n\u2019\u00e9tait pas britannique mais mon compatriote \u2013 n\u00e9 \u00e0 Berdyczow en tant que J\u00f3zef Konrad Korzeniowski, fils de gentilhomme, po\u00e8te et r\u00e9volutionnaire polonais du nom d\u2019Apollo. L\u2019exp\u00e9rience polonaise de l\u2019oppression, l\u2019asservissement aux puissances \u00e9trang\u00e8res (<a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/eryk-mistewicz-pologne-veut-s-inscrire-pleinement-dans-projet-europeen-164916\" target=\"_blank\">la Pologne \u00e9tant \u00e0 l\u2019\u00e9poque occup\u00e9e par la Prusse, l\u2019Autriche et la Russie<\/a>), ont tr\u00e8s fortement fa\u00e7onn\u00e9 le futur auteur d\u2019<em>Au c\u0153ur des t\u00e9n\u00e8bres<\/em>. Sa critique du colonialisme brutal, du terrorisme et de tant d\u2019autres probl\u00e8mes \u2013 aujourd\u2019hui plus que jamais d\u2019actualit\u00e9 \u2013 vient dans une large mesure de la perspective polonaise, de la tradition romantique et chevaleresque polonaise.<\/p>\r\n",
+            "format": "full",
+            "processed": "<p>Les vagues successives de mondialisation ont red\u00e9fini notre monde. D\u2019abord les grandes d\u00e9couvertes g\u00e9ographiques et la r\u00e9volution industrielle, puis la reconstruction apr\u00e8s la guerre et l\u2019essor du commerce international, et finalement l\u2019av\u00e8nement d\u2019Internet et de nouvelles m\u00e9thodes de communication. Ces changements s\u2019op\u00e9raient \u00e0 un rythme de plus en plus soutenu \u2013 autrefois, les g\u00e9n\u00e9rations qui se succ\u00e9daient vivaient dans des conditions relativement similaires. Nous savons tous aujourd\u2019hui que non seulement nos petits-enfants, mais d\u00e9j\u00e0 nos enfants fonctionneront dans une r\u00e9alit\u00e9 compl\u00e8tement diff\u00e9rente de la n\u00f4tre.<\/p>\n\n<p>La quatri\u00e8me vague de mondialisation se cristallise \u2013 et c\u2019est sous ce mot d\u2019ordre, Mondialisation 4.0, que commence bient\u00f4t le Forum \u00e9conomique mondial de Davos. Il est ind\u00e9niable que nous nous trouvons, une fois de plus, \u00e0 un tournant de l\u2019histoire. Une nouvelle r\u00e9volution technologique, la part toujours croissante de l\u2019Asie dans le commerce mondial ainsi que les dangers li\u00e9s au terrorisme et une migration de masse non contr\u00f4l\u00e9e font que notre monde contemporain a besoin de plus de coop\u00e9ration internationale et de nouvelles r\u00e8gles du jeu.<\/p>\n\n<p>C\u2019est pourquoi je me r\u00e9jouis que la perspective polonaise des questions de mondialisation commence \u00e0 \u00eatre de plus en plus pr\u00e9sente dans le discours plan\u00e9taire. Dans l\u2019un des plus importants livres de 2017, <em>The Dawn Watch : Joseph Conrad in a Global World<\/em>, Maya Jasanoff, professeur \u00e0 l\u2019universit\u00e9 d\u2019Harvard, rappelle le personnage de Joseph Conrad, l\u2019un des plus perspicaces observateurs de la mondialisation de la fin du 19<sup>e<\/sup> et du d\u00e9but du XX<sup>e<\/sup> si\u00e8cle.<\/p>\n\n<p>Conrad est consid\u00e9r\u00e9 par beaucoup comme l\u2019un des plus grands \u00e9crivains britanniques de l\u2019histoire. Or, il n\u2019\u00e9tait pas britannique mais mon compatriote \u2013 n\u00e9 \u00e0 Berdyczow en tant que J\u00f3zef Konrad Korzeniowski, fils de gentilhomme, po\u00e8te et r\u00e9volutionnaire polonais du nom d\u2019Apollo. L\u2019exp\u00e9rience polonaise de l\u2019oppression, l\u2019asservissement aux puissances \u00e9trang\u00e8res (<a href=\"https:\/\/www.lopinion.fr\/edition\/economie\/eryk-mistewicz-pologne-veut-s-inscrire-pleinement-dans-projet-europeen-164916\" target=\"_blank\">la Pologne \u00e9tant \u00e0 l\u2019\u00e9poque occup\u00e9e par la Prusse, l\u2019Autriche et la Russie<\/a>), ont tr\u00e8s fortement fa\u00e7onn\u00e9 le futur auteur d\u2019<em>Au c\u0153ur des t\u00e9n\u00e8bres<\/em>. Sa critique du colonialisme brutal, du terrorisme et de tant d\u2019autres probl\u00e8mes \u2013 aujourd\u2019hui plus que jamais d\u2019actualit\u00e9 \u2013 vient dans une large mesure de la perspective polonaise, de la tradition romantique et chevaleresque polonaise.<\/p>",
+            "summary": "",
+            "lang": "fr"
+        }
+    ],
+    "field_chapo": [
+        {
+            "value": "\u00abNous devons en finir avec la philosophie des paradis fiscaux, lutter contre le trou fiscal et r\u00e9gler la Digital Tax. Sinon, il sera impossible de relever les d\u00e9fis de la quatri\u00e8me vague de mondialisation, notamment celui de la cybercriminalit\u00e9 \u00bb "
+        }
+    ],
+    "field_surtitle": [
+        {
+            "value": "Tribune libre"
+        }
+    ]
+}

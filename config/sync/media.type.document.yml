@@ -1,0 +1,13 @@
+uuid: 6641346b-98e3-463a-b797-e4b44e899e62
+langcode: fr
+status: true
+dependencies: {  }
+id: document
+label: Document
+description: 'Gestion des médias de type document.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_document_document
+field_map: {  }

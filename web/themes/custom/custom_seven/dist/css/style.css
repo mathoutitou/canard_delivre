@@ -1,0 +1,81 @@
+
+/** Block : System branding **/
+.block-system-branding-block > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.block-system-branding-block > * + * {
+  margin-left: 20px;
+}
+.block-system-branding-block > .site-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.block-system-branding-block > .site-name a {
+  color: #666;
+}
+
+/** Views : Exposed form **/
+.views-exposed-form .form--inline .form-item {
+  display: inline-block;
+  vertical-align: bottom;
+  float: none;
+}
+.views-exposed-form .form--inline .form-actions {
+  clear: none;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/** Views : Mediatheque **/
+.view-views-mediatheque .views-view-grid .views-row {
+  margin: 20px -20px 0;
+}
+.view-views-mediatheque .views-view-grid .views-col {
+  padding: 0 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/** Paragraphs : field widget form **/
+.electron-paragraph-wrapper {
+  border: 1px solid #bfbfbf;
+  padding: 1em 1.5em;
+  border-left-width: 2px;
+  margin: 10px 0;
+}
+.field-multiple-table .electron-paragraph-wrapper {
+  border: 0;
+  padding: 0;
+}
+.electron-paragraph-wrapper .paragraph-type-title {
+  font-weight: bold;
+  font-size: 1.475em;
+  line-height: 1.625em;
+}
+
+.field--widget-entity-reference-paragraphs .field-multiple-table {
+  border: 1px solid #bfbfbf;
+  border-left-width: 2px;
+}
+
+.form-wrapper.error .form-submit.entity-browser-processed {
+  border-width: 1px;
+  border-color: #e62600;
+  color: #e62600;
+  background: #fcf4f2; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f7f7f7 0, #fcf4f2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f7f7f7 0,#fcf4f2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f7f7f7 0,#fcf4f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#edit-field-result-text-1-left-wrapper,
+#edit-field-result-text-1-right-wrapper,
+#edit-field-result-text-2-left-wrapper,
+#edit-field-result-text-2-right-wrapper,
+#edit-field-result-text-3-left-wrapper,
+#edit-field-result-text-3-right-wrapper {
+  float: left;
+  width: 45%;
+  padding: 10px;
+}

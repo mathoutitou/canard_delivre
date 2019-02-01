@@ -1,0 +1,36 @@
+# FR translations
+# Missing Media modules translations.
+
+# Empty string, without this the first translation doesnt work
+msgid ""
+msgstr ""
+
+msgid "Media name"
+msgstr "Nom du média"
+
+msgid "The name of this media."
+msgstr "Le nom de ce média."
+
+msgid "Delete media"
+msgstr "Supprimer le média"
+
+msgid "Publish media"
+msgstr "Publier le média"
+
+msgid "Save media"
+msgstr "Enregistrer le média"
+
+msgid "Unpublish media"
+msgstr "Dépublier le média"
+
+msgid "Add a new media"
+msgstr "Ajouter un nouveau média"
+
+msgid "Add a new media entity."
+msgstr "Ajouter une nouvelle entité média."
+
+msgid "Find and manage media."
+msgstr "Trouver et administrer un média."
+
+msgid "Manage media bundles."
+msgstr "Administrer les types de média."
